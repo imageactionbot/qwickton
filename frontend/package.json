@@ -1,0 +1,40 @@
+{
+  "name": "qwickton-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "gen-seo": "tsx scripts/generate-seo.ts",
+    "build": "npm run gen-seo && tsc -b && vite build && node scripts/prerender.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.6.0",
+    "dompurify": "^3.2.3",
+    "html2pdf.js": "^0.10.2",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.9.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/dompurify": "^3.0.5",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^25.0.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.4",
+    "playwright": "^1.49.0"
+  }
+}

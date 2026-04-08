@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ seo_title }} | Qwickton{% endblock %}
+{% block meta_description %}{{ seo_description }}{% endblock %}
+{% block content %}
+<h1>{{ category_title }} Tools</h1>
+<p>Pick one tool below. Upload/select file, run process, then download output. Beginner-safe flow.</p>
+<div class="grid">
+  {% for tool in tools %}
+  <a class="card" href="/tools/{{ category }}/{{ tool.slug }}/">{{ tool.title }}</a>
+  {% endfor %}
+</div>
+<div id="qwickton-app"></div>
+<script type="module" src="http://localhost:5173/src/main.tsx"></script>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ seo_title }} | Qwickton{% endblock %}
+{% block meta_description %}{{ seo_description }}{% endblock %}
+{% block content %}
+<h1>{{ tool_title }}</h1>
+<p>Category: {{ category_title }}</p>
+<p>{{ tool_description }}</p>
+<p>Privacy promise: processing runs on your device whenever possible.</p>
+<p>How to use: choose file, click process, then download. No account needed.</p>
+<div id="qwickton-app"></div>
+<script type="module" src="http://localhost:5173/src/main.tsx"></script>
+{% endblock %}

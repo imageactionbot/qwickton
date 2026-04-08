@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>All your AI tools in one place</h1>
+  <p>Process PDFs and images instantly in your browser with privacy-first architecture.</p>
+</section>
+<section class="grid">
+  {% for category in categories %}
+  <a class="card" href="/tools/{{ category.id }}/">{{ category.label }}</a>
+  {% endfor %}
+</section>
+{% endblock %}

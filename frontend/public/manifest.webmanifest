@@ -1,0 +1,23 @@
+{
+  "name": "Qwickton",
+  "short_name": "Qwickton",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f3f9",
+  "theme_color": "#3d5aed",
+  "description": "Fast free online tools for PDF, images, Word DOCX, passport photos, and data — runs in your browser, files stay local.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

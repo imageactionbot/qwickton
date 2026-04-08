@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{% block meta_description %}Qwickton privacy-first AI tools platform{% endblock %}">
+  <link rel="canonical" href="{% block canonical %}{{ request.path }}{% endblock %}">
+  <meta property="og:title" content="{% block og_title %}{% block title_og_fallback %}Qwickton{% endblock %}{% endblock %}">
+  <meta property="og:description" content="{% block og_description %}{% block meta_description_og_fallback %}Free no-login local file tools{% endblock %}{% endblock %}">
+  <meta name="keywords" content="pdf tools,image tools,passport photo,background remover,csv excel converter,text tools,privacy first,no login">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>{% block title %}Qwickton{% endblock %}</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Qwickton",
+      "url": "/",
+      "description": "Free privacy-first PDF and image tools with in-browser processing"
+    }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Qwickton</a>
+    <nav>
+      <a href="/tools/pdf/">PDF</a>
+      <a href="/tools/image/">Image</a>
+      <a href="/tools/passport-photo/">Passport</a>
+      <a href="/privacy">Privacy</a>
+    </nav>
+  </header>
+  <main>{% block content %}{% endblock %}</main>
+  <footer class="footer">
+    <p>Files never leave your device.</p>
+    <div class="ad-slot">Ad slot (non-intrusive)</div>
+  </footer>
+</body>
+</html>

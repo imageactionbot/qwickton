@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8ecfb"/>
+      <stop offset="45%" stop-color="#f1f3f9"/>
+      <stop offset="100%" stop-color="#dde4f7"/>
+    </linearGradient>
+    <linearGradient id="ogMarkBg" x1="8%" y1="6%" x2="92%" y2="94%">
+      <stop offset="0%" stop-color="#3d5aed"/>
+      <stop offset="52%" stop-color="#5b73f5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="rgba(61,90,237,0.12)" stroke-width="2"/>
+  <g transform="translate(80 145) scale(2.15)">
+    <rect width="128" height="128" rx="30" fill="url(#ogMarkBg)"/>
+    <path
+      d="M28 96c18-28 46-52 78-62"
+      fill="none"
+      stroke="url(#ogAccent)"
+      stroke-width="5"
+      stroke-linecap="round"
+      opacity="0.9"
+    />
+    <path
+      d="M42 44c0-12 10-22 22-22s22 10 22 22-10 22-22 22a21.8 21.8 0 0 1-15.2-6.2"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+    <path d="M71 65 L 92 92" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="220" fill="#3d5aed" font-family="system-ui, Segoe UI, sans-serif" font-size="26" font-weight="650">
+    Local-first · Browser-private
+  </text>
+  <text x="400" y="310" fill="#0d1321" font-family="system-ui, Segoe UI, sans-serif" font-size="68" font-weight="750">
+    Qwickton
+  </text>
+  <text x="400" y="375" fill="#3d4d64" font-family="system-ui, Segoe UI, sans-serif" font-size="28" font-weight="500">
+    PDF, images, Word, passport layouts, and 180+ more tools
+  </text>
+  <rect x="400" y="420" width="360" height="5" rx="2.5" fill="url(#ogMarkBg)" opacity="0.85"/>
+</svg>
