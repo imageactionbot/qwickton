@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const publicDir = join(__dirname, "..", "public");
 
 const site =
-  (typeof process.env.VITE_SITE_URL === "string" && process.env.VITE_SITE_URL.trim()) || "https://qwickton.example.com";
+  (typeof process.env.VITE_SITE_URL === "string" && process.env.VITE_SITE_URL.trim()) || "https://www.qwickton.com";
 const origin = site.replace(/\/+$/, "");
 
 function escapeXml(s: string): string {

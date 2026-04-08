@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qwickton.pages.dev/sitemap.xml
+Sitemap: https://www.qwickton.com/sitemap.xml

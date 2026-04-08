@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "gen-seo": "tsx scripts/generate-seo.ts",
-    "build": "npm run gen-seo && tsc -b && vite build && node scripts/prerender.mjs",
+    "build": "npm run gen-seo && tsc -b && vite build && node scripts/write-ads-txt.mjs && node scripts/prerender.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

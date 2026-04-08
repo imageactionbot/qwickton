@@ -1,2 +1,2 @@
-# Netlify & Cloudflare Pages: client-side routes → index.html
+# Cloudflare Pages: real files (ads.txt, robots.txt, …) are served first; this is only for SPA routes.
 /*    /index.html   200

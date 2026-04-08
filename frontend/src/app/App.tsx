@@ -26,6 +26,7 @@ import { TOOL_CATALOG, TOOL_CATALOG_COUNT } from "./toolCatalog";
 import { HOME_INTERNATIONAL_KEYWORDS } from "../lib/seo/internationalSeo";
 import { CATALOG_PAGE_SIZE, catalogDisplayRange, catalogSlicePage, catalogTotalPages } from "../lib/catalogPagination";
 import { CatalogPaginationBar } from "../features/shared/CatalogPaginationBar";
+import { syncGa4PageView } from "../lib/analytics/bootstrapGa4";
 
 /** Labels stored in localStorage from hub pages → deep link for “recent”. */
 const RECENT_HUB_PATHS: Record<string, string> = {
@@ -428,6 +429,10 @@ export function App() {
   const mod = useModKeyLabel();
   const mobileMenuBtnRef = useRef<HTMLButtonElement>(null);
   const prevMobileOpen = useRef(false);
+
+  useEffect(() => {
+    syncGa4PageView(`${location.pathname}${location.search}`);
+  }, [location.pathname, location.search]);
 
   useEffect(() => {
     setMobileNavOpen(false);

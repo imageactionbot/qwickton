@@ -7,8 +7,9 @@
 #     CLOUDFLARE_ACCOUNT_ID    → Dashboard right sidebar / Overview
 #     CLOUDFLARE_PAGES_PROJECT → Project ka naam (jaise qwickton)
 #     VITE_SITE_URL            → https://tumhara-domain.com  (sitemap / SEO)
-#   Optional secret:
-#     VITE_ADSENSE_CLIENT      → ca-pub-...
+#   Optional secrets:
+#     VITE_ADSENSE_CLIENT       → ca-pub-... (ads + dist/ads.txt on build)
+#     VITE_GA_MEASUREMENT_ID    → G-... (Google Analytics 4 page views)
 #
 name: Deploy Cloudflare Pages
 
@@ -48,6 +49,7 @@ jobs:
         env:
           VITE_SITE_URL: ${{ secrets.VITE_SITE_URL }}
           VITE_ADSENSE_CLIENT: ${{ secrets.VITE_ADSENSE_CLIENT }}
+          VITE_GA_MEASUREMENT_ID: ${{ secrets.VITE_GA_MEASUREMENT_ID }}
         run: npm run build
 
       - name: Check Cloudflare secrets

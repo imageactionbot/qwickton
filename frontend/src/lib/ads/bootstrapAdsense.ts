@@ -20,6 +20,16 @@ export function getAdsenseClientId(): string | undefined {
 export function bootstrapAdsense(): void {
   if (typeof document === "undefined" || loaded) return;
   const client = getAdsenseClientId();
+
+  const existingHead = document.querySelector(
+    'script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]',
+  );
+  if (existingHead) {
+    loaded = true;
+    if (client) document.documentElement.classList.add("qk-ads");
+    return;
+  }
+
   if (!client) return;
 
   loaded = true;

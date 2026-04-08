@@ -1,0 +1,4 @@
+# Helps crawlers (e.g. AdSense) treat ads.txt as plain text.
+/ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
