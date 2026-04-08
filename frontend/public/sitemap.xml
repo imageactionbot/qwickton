@@ -1,1833 +1,1833 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qwickton.example.com/</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/" />
+    <loc>https://qwickton.pages.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/search</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/search" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/search" />
+    <loc>https://qwickton.pages.dev/search</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/search" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/search" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/smart-drop</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/smart-drop" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/smart-drop" />
+    <loc>https://qwickton.pages.dev/smart-drop</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/smart-drop" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/smart-drop" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf" />
+    <loc>https://qwickton.pages.dev/pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image" />
+    <loc>https://qwickton.pages.dev/image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport" />
+    <loc>https://qwickton.pages.dev/passport</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove" />
+    <loc>https://qwickton.pages.dev/background-remove</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter" />
+    <loc>https://qwickton.pages.dev/converter</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word" />
+    <loc>https://qwickton.pages.dev/word</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text" />
+    <loc>https://qwickton.pages.dev/text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/about</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/about" />
+    <loc>https://qwickton.pages.dev/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/about" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/privacy" />
+    <loc>https://qwickton.pages.dev/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/privacy" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/terms</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/terms" />
+    <loc>https://qwickton.pages.dev/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/terms" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/cookies</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/cookies" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/cookies" />
+    <loc>https://qwickton.pages.dev/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/cookies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/cookies" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=merge-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=merge-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=merge-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=merge-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=merge-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=merge-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=combine-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=combine-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=combine-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=combine-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=combine-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=combine-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=join-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=join-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=join-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=join-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=join-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=join-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=append-pdf-pages</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=append-pdf-pages" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=append-pdf-pages" />
+    <loc>https://qwickton.pages.dev/pdf?tool=append-pdf-pages</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=append-pdf-pages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=append-pdf-pages" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=split-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=split-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=split-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=split-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=split-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=split-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=split-pdf-first-half</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=split-pdf-first-half" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=split-pdf-first-half" />
+    <loc>https://qwickton.pages.dev/pdf?tool=split-pdf-first-half</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=split-pdf-first-half" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=split-pdf-first-half" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=split-pdf-second-half</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=split-pdf-second-half" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=split-pdf-second-half" />
+    <loc>https://qwickton.pages.dev/pdf?tool=split-pdf-second-half</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=split-pdf-second-half" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=split-pdf-second-half" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=rotate-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=rotate-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=rotate-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=rotate-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=rotate-pdf-90</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=rotate-pdf-90" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=rotate-pdf-90" />
+    <loc>https://qwickton.pages.dev/pdf?tool=rotate-pdf-90</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-90" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-90" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=rotate-pdf-180</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=rotate-pdf-180" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=rotate-pdf-180" />
+    <loc>https://qwickton.pages.dev/pdf?tool=rotate-pdf-180</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-180" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-180" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=rotate-pdf-270</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=rotate-pdf-270" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=rotate-pdf-270" />
+    <loc>https://qwickton.pages.dev/pdf?tool=rotate-pdf-270</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-270" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=rotate-pdf-270" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=watermark-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=watermark-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=watermark-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=watermark-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=watermark-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=watermark-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=stamp-watermark-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=stamp-watermark-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=stamp-watermark-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=stamp-watermark-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=stamp-watermark-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=stamp-watermark-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=page-numbers-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=page-numbers-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=page-numbers-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=page-numbers-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=page-numbers-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=page-numbers-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=footer-numbers-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=footer-numbers-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=footer-numbers-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=footer-numbers-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=footer-numbers-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=footer-numbers-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=sign-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=sign-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=sign-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=sign-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=sign-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=sign-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=text-signature-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=text-signature-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=text-signature-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=text-signature-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=text-signature-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=text-signature-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=jpg-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=jpg-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=jpg-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=jpg-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=jpg-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=jpg-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=png-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=png-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=png-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=png-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=png-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=png-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=images-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=images-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=images-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=images-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=images-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=images-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=scan-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=scan-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=scan-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=scan-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=scan-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=scan-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=high-contrast-pdf-scan</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=high-contrast-pdf-scan" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=high-contrast-pdf-scan" />
+    <loc>https://qwickton.pages.dev/pdf?tool=high-contrast-pdf-scan</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=high-contrast-pdf-scan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=high-contrast-pdf-scan" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=extract-pdf-pages</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=extract-pdf-pages" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=extract-pdf-pages" />
+    <loc>https://qwickton.pages.dev/pdf?tool=extract-pdf-pages</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=extract-pdf-pages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=extract-pdf-pages" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=save-pdf-page-range</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=save-pdf-page-range" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=save-pdf-page-range" />
+    <loc>https://qwickton.pages.dev/pdf?tool=save-pdf-page-range</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=save-pdf-page-range" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=save-pdf-page-range" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=remove-pdf-pages</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=remove-pdf-pages" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=remove-pdf-pages" />
+    <loc>https://qwickton.pages.dev/pdf?tool=remove-pdf-pages</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=remove-pdf-pages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=remove-pdf-pages" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=delete-pdf-pages</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=delete-pdf-pages" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=delete-pdf-pages" />
+    <loc>https://qwickton.pages.dev/pdf?tool=delete-pdf-pages</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=delete-pdf-pages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=delete-pdf-pages" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=resave-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=resave-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=resave-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=resave-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=resave-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=resave-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=fix-pdf-structure</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=fix-pdf-structure" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=fix-pdf-structure" />
+    <loc>https://qwickton.pages.dev/pdf?tool=fix-pdf-structure</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=fix-pdf-structure" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=fix-pdf-structure" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=repair-pdf-file</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=repair-pdf-file" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=repair-pdf-file" />
+    <loc>https://qwickton.pages.dev/pdf?tool=repair-pdf-file</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=repair-pdf-file" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=repair-pdf-file" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=organize-pdf-rotation</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=organize-pdf-rotation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=organize-pdf-rotation" />
+    <loc>https://qwickton.pages.dev/pdf?tool=organize-pdf-rotation</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=organize-pdf-rotation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=organize-pdf-rotation" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=iphone-pdf-join</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=iphone-pdf-join" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=iphone-pdf-join" />
+    <loc>https://qwickton.pages.dev/pdf?tool=iphone-pdf-join</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=iphone-pdf-join" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=iphone-pdf-join" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=photo-album-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=photo-album-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=photo-album-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=photo-album-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=photo-album-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=photo-album-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=whatsapp-doc-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=whatsapp-doc-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=whatsapp-doc-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=whatsapp-doc-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=whatsapp-doc-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=whatsapp-doc-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=pdf-re-export</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=pdf-re-export" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=pdf-re-export" />
+    <loc>https://qwickton.pages.dev/pdf?tool=pdf-re-export</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=pdf-re-export" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=pdf-re-export" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=pdf-linearize-fix</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=pdf-linearize-fix" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=pdf-linearize-fix" />
+    <loc>https://qwickton.pages.dev/pdf?tool=pdf-linearize-fix</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=pdf-linearize-fix" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=pdf-linearize-fix" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=repair-export-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=repair-export-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=repair-export-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=repair-export-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=repair-export-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=repair-export-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=merge-scanned-documents</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=merge-scanned-documents" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=merge-scanned-documents" />
+    <loc>https://qwickton.pages.dev/pdf?tool=merge-scanned-documents</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=merge-scanned-documents" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=merge-scanned-documents" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=bundle-pdf-files</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=bundle-pdf-files" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=bundle-pdf-files" />
+    <loc>https://qwickton.pages.dev/pdf?tool=bundle-pdf-files</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=bundle-pdf-files" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=bundle-pdf-files" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=split-document-half</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=split-document-half" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=split-document-half" />
+    <loc>https://qwickton.pages.dev/pdf?tool=split-document-half</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=split-document-half" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=split-document-half" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=divide-pdf-two-parts</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=divide-pdf-two-parts" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=divide-pdf-two-parts" />
+    <loc>https://qwickton.pages.dev/pdf?tool=divide-pdf-two-parts</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=divide-pdf-two-parts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=divide-pdf-two-parts" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=turn-pages-right</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=turn-pages-right" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=turn-pages-right" />
+    <loc>https://qwickton.pages.dev/pdf?tool=turn-pages-right</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=turn-pages-right" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=turn-pages-right" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=turn-pages-upside-down</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=turn-pages-upside-down" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=turn-pages-upside-down" />
+    <loc>https://qwickton.pages.dev/pdf?tool=turn-pages-upside-down</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=turn-pages-upside-down" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=turn-pages-upside-down" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=turn-pages-left</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=turn-pages-left" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=turn-pages-left" />
+    <loc>https://qwickton.pages.dev/pdf?tool=turn-pages-left</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=turn-pages-left" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=turn-pages-left" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=draft-watermark-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=draft-watermark-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=draft-watermark-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=draft-watermark-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=draft-watermark-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=draft-watermark-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=confidential-stamp-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=confidential-stamp-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=confidential-stamp-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=confidential-stamp-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=confidential-stamp-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=confidential-stamp-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=paginate-document-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=paginate-document-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=paginate-document-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=paginate-document-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=paginate-document-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=paginate-document-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=esign-text-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=esign-text-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=esign-text-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=esign-text-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=esign-text-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=esign-text-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=autograph-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=autograph-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=autograph-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=autograph-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=autograph-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=autograph-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=camera-photos-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=camera-photos-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=camera-photos-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=camera-photos-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=camera-photos-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=camera-photos-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=scan-receipt-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=scan-receipt-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=scan-receipt-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=scan-receipt-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=scan-receipt-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=scan-receipt-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=whiteboard-photo-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=whiteboard-photo-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=whiteboard-photo-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=whiteboard-photo-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=whiteboard-photo-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=whiteboard-photo-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=pull-pdf-page-range</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=pull-pdf-page-range" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=pull-pdf-page-range" />
+    <loc>https://qwickton.pages.dev/pdf?tool=pull-pdf-page-range</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=pull-pdf-page-range" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=pull-pdf-page-range" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=drop-pdf-page-range</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=drop-pdf-page-range" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=drop-pdf-page-range" />
+    <loc>https://qwickton.pages.dev/pdf?tool=drop-pdf-page-range</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=drop-pdf-page-range" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=drop-pdf-page-range" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=add-text-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=add-text-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=add-text-to-pdf" />
+    <loc>https://qwickton.pages.dev/pdf?tool=add-text-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=add-text-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=add-text-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=pdf-text-overlay</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=pdf-text-overlay" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=pdf-text-overlay" />
+    <loc>https://qwickton.pages.dev/pdf?tool=pdf-text-overlay</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=pdf-text-overlay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=pdf-text-overlay" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=edit-pdf-add-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=edit-pdf-add-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=edit-pdf-add-text" />
+    <loc>https://qwickton.pages.dev/pdf?tool=edit-pdf-add-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=edit-pdf-add-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=edit-pdf-add-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=strip-pdf-metadata</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=strip-pdf-metadata" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=strip-pdf-metadata" />
+    <loc>https://qwickton.pages.dev/pdf?tool=strip-pdf-metadata</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=strip-pdf-metadata" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=strip-pdf-metadata" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=remove-pdf-metadata</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=remove-pdf-metadata" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=remove-pdf-metadata" />
+    <loc>https://qwickton.pages.dev/pdf?tool=remove-pdf-metadata</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=remove-pdf-metadata" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=remove-pdf-metadata" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/pdf?tool=clean-pdf-properties</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/pdf?tool=clean-pdf-properties" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/pdf?tool=clean-pdf-properties" />
+    <loc>https://qwickton.pages.dev/pdf?tool=clean-pdf-properties</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/pdf?tool=clean-pdf-properties" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/pdf?tool=clean-pdf-properties" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=compress-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=compress-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=compress-image" />
+    <loc>https://qwickton.pages.dev/image?tool=compress-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=compress-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=compress-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=shrink-jpg</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=shrink-jpg" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=shrink-jpg" />
+    <loc>https://qwickton.pages.dev/image?tool=shrink-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=shrink-jpg" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=shrink-jpg" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=resize-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=resize-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=resize-image" />
+    <loc>https://qwickton.pages.dev/image?tool=resize-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=resize-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=resize-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=convert-webp</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=convert-webp" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=convert-webp" />
+    <loc>https://qwickton.pages.dev/image?tool=convert-webp</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=convert-webp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=convert-webp" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=image-to-webp</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=image-to-webp" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=image-to-webp" />
+    <loc>https://qwickton.pages.dev/image?tool=image-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=image-to-webp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=image-to-webp" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=document-scan</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=document-scan" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=document-scan" />
+    <loc>https://qwickton.pages.dev/image?tool=document-scan</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=document-scan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=document-scan" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=form-scan-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=form-scan-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=form-scan-image" />
+    <loc>https://qwickton.pages.dev/image?tool=form-scan-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=form-scan-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=form-scan-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=school-document-scan</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=school-document-scan" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=school-document-scan" />
+    <loc>https://qwickton.pages.dev/image?tool=school-document-scan</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=school-document-scan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=school-document-scan" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=auto-enhance</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=auto-enhance" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=auto-enhance" />
+    <loc>https://qwickton.pages.dev/image?tool=auto-enhance</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=auto-enhance" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=auto-enhance" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=photo-enhance-local</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=photo-enhance-local" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=photo-enhance-local" />
+    <loc>https://qwickton.pages.dev/image?tool=photo-enhance-local</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=photo-enhance-local" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=photo-enhance-local" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=compress-to-size</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=compress-to-size" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=compress-to-size" />
+    <loc>https://qwickton.pages.dev/image?tool=compress-to-size</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=compress-to-size" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=compress-to-size" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=target-kb-compress</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=target-kb-compress" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=target-kb-compress" />
+    <loc>https://qwickton.pages.dev/image?tool=target-kb-compress</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=target-kb-compress" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=target-kb-compress" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=rotate-flip</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=rotate-flip" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=rotate-flip" />
+    <loc>https://qwickton.pages.dev/image?tool=rotate-flip</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=rotate-flip" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=rotate-flip" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=rotate-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=rotate-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=rotate-photo" />
+    <loc>https://qwickton.pages.dev/image?tool=rotate-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=rotate-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=rotate-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=flip-horizontal</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=flip-horizontal" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=flip-horizontal" />
+    <loc>https://qwickton.pages.dev/image?tool=flip-horizontal</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=flip-horizontal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=flip-horizontal" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=flip-vertical</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=flip-vertical" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=flip-vertical" />
+    <loc>https://qwickton.pages.dev/image?tool=flip-vertical</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=flip-vertical" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=flip-vertical" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=mirror-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=mirror-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=mirror-image" />
+    <loc>https://qwickton.pages.dev/image?tool=mirror-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=mirror-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=mirror-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=batch-image-process</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=batch-image-process" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=batch-image-process" />
+    <loc>https://qwickton.pages.dev/image?tool=batch-image-process</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=batch-image-process" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=batch-image-process" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=quick-compress-upload</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=quick-compress-upload" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=quick-compress-upload" />
+    <loc>https://qwickton.pages.dev/image?tool=quick-compress-upload</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=quick-compress-upload" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=quick-compress-upload" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=id-card-scan-look</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=id-card-scan-look" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=id-card-scan-look" />
+    <loc>https://qwickton.pages.dev/image?tool=id-card-scan-look</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=id-card-scan-look" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=id-card-scan-look" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=iphone-photo-compress</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=iphone-photo-compress" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=iphone-photo-compress" />
+    <loc>https://qwickton.pages.dev/image?tool=iphone-photo-compress</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=iphone-photo-compress" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=iphone-photo-compress" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=screenshot-compress</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=screenshot-compress" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=screenshot-compress" />
+    <loc>https://qwickton.pages.dev/image?tool=screenshot-compress</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=screenshot-compress" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=screenshot-compress" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=whatsapp-status-compress</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=whatsapp-status-compress" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=whatsapp-status-compress" />
+    <loc>https://qwickton.pages.dev/image?tool=whatsapp-status-compress</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=whatsapp-status-compress" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=whatsapp-status-compress" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=optimize-jpeg</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=optimize-jpeg" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=optimize-jpeg" />
+    <loc>https://qwickton.pages.dev/image?tool=optimize-jpeg</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=optimize-jpeg" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=optimize-jpeg" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=shrink-photo-file</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=shrink-photo-file" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=shrink-photo-file" />
+    <loc>https://qwickton.pages.dev/image?tool=shrink-photo-file</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=shrink-photo-file" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=shrink-photo-file" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=email-attachment-compress</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=email-attachment-compress" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=email-attachment-compress" />
+    <loc>https://qwickton.pages.dev/image?tool=email-attachment-compress</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=email-attachment-compress" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=email-attachment-compress" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=jpeg-quality-reduce</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=jpeg-quality-reduce" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=jpeg-quality-reduce" />
+    <loc>https://qwickton.pages.dev/image?tool=jpeg-quality-reduce</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=jpeg-quality-reduce" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=jpeg-quality-reduce" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=half-size-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=half-size-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=half-size-image" />
+    <loc>https://qwickton.pages.dev/image?tool=half-size-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=half-size-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=half-size-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=thumbnail-resize</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=thumbnail-resize" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=thumbnail-resize" />
+    <loc>https://qwickton.pages.dev/image?tool=thumbnail-resize</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=thumbnail-resize" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=thumbnail-resize" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=png-to-webp-convert</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=png-to-webp-convert" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=png-to-webp-convert" />
+    <loc>https://qwickton.pages.dev/image?tool=png-to-webp-convert</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=png-to-webp-convert" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=png-to-webp-convert" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=jpeg-to-webp-convert</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=jpeg-to-webp-convert" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=jpeg-to-webp-convert" />
+    <loc>https://qwickton.pages.dev/image?tool=jpeg-to-webp-convert</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=jpeg-to-webp-convert" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=jpeg-to-webp-convert" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=format-convert-image</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=format-convert-image" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=format-convert-image" />
+    <loc>https://qwickton.pages.dev/image?tool=format-convert-image</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=format-convert-image" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=format-convert-image" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=receipt-scan-look</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=receipt-scan-look" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=receipt-scan-look" />
+    <loc>https://qwickton.pages.dev/image?tool=receipt-scan-look</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=receipt-scan-look" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=receipt-scan-look" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=invoice-scan-mode</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=invoice-scan-mode" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=invoice-scan-mode" />
+    <loc>https://qwickton.pages.dev/image?tool=invoice-scan-mode</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=invoice-scan-mode" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=invoice-scan-mode" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=brighten-scan-colors</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=brighten-scan-colors" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=brighten-scan-colors" />
+    <loc>https://qwickton.pages.dev/image?tool=brighten-scan-colors</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=brighten-scan-colors" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=brighten-scan-colors" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=fix-underexposed-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=fix-underexposed-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=fix-underexposed-photo" />
+    <loc>https://qwickton.pages.dev/image?tool=fix-underexposed-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=fix-underexposed-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=fix-underexposed-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=form-upload-kb-limit</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=form-upload-kb-limit" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=form-upload-kb-limit" />
+    <loc>https://qwickton.pages.dev/image?tool=form-upload-kb-limit</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=form-upload-kb-limit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=form-upload-kb-limit" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=rotate-image-180</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=rotate-image-180" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=rotate-image-180" />
+    <loc>https://qwickton.pages.dev/image?tool=rotate-image-180</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=rotate-image-180" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=rotate-image-180" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=fix-upside-down-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=fix-upside-down-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=fix-upside-down-photo" />
+    <loc>https://qwickton.pages.dev/image?tool=fix-upside-down-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=fix-upside-down-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=fix-upside-down-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/image?tool=vertical-flip-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/image?tool=vertical-flip-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/image?tool=vertical-flip-photo" />
+    <loc>https://qwickton.pages.dev/image?tool=vertical-flip-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/image?tool=vertical-flip-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/image?tool=vertical-flip-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=india&amp;tool=passport-india</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=india&amp;tool=passport-india" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=india&amp;tool=passport-india" />
+    <loc>https://qwickton.pages.dev/passport?preset=india&amp;tool=passport-india</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=passport-india" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=passport-india" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=india&amp;tool=india-visa-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=india&amp;tool=india-visa-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=india&amp;tool=india-visa-photo" />
+    <loc>https://qwickton.pages.dev/passport?preset=india&amp;tool=india-visa-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=india-visa-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=india-visa-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=usa&amp;tool=passport-usa</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=usa&amp;tool=passport-usa" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=usa&amp;tool=passport-usa" />
+    <loc>https://qwickton.pages.dev/passport?preset=usa&amp;tool=passport-usa</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=passport-usa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=passport-usa" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=usa&amp;tool=us-visa-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=usa&amp;tool=us-visa-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=usa&amp;tool=us-visa-photo" />
+    <loc>https://qwickton.pages.dev/passport?preset=usa&amp;tool=us-visa-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=us-visa-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=us-visa-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=eu&amp;tool=schengen-passport-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=eu&amp;tool=schengen-passport-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=eu&amp;tool=schengen-passport-photo" />
+    <loc>https://qwickton.pages.dev/passport?preset=eu&amp;tool=schengen-passport-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=eu&amp;tool=schengen-passport-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=eu&amp;tool=schengen-passport-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=uk&amp;tool=passport-uk</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=uk&amp;tool=passport-uk" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=uk&amp;tool=passport-uk" />
+    <loc>https://qwickton.pages.dev/passport?preset=uk&amp;tool=passport-uk</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=passport-uk" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=passport-uk" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=uk&amp;tool=uk-online-passport</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=uk&amp;tool=uk-online-passport" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=uk&amp;tool=uk-online-passport" />
+    <loc>https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-online-passport</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-online-passport" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-online-passport" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=india&amp;tool=oci-application-photo</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=india&amp;tool=oci-application-photo" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=india&amp;tool=oci-application-photo" />
+    <loc>https://qwickton.pages.dev/passport?preset=india&amp;tool=oci-application-photo</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=oci-application-photo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=oci-application-photo" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=india&amp;tool=pan-card-photo-sheet</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=india&amp;tool=pan-card-photo-sheet" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=india&amp;tool=pan-card-photo-sheet" />
+    <loc>https://qwickton.pages.dev/passport?preset=india&amp;tool=pan-card-photo-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=pan-card-photo-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=india&amp;tool=pan-card-photo-sheet" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=usa&amp;tool=dv-lottery-photo-sheet</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=usa&amp;tool=dv-lottery-photo-sheet" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=usa&amp;tool=dv-lottery-photo-sheet" />
+    <loc>https://qwickton.pages.dev/passport?preset=usa&amp;tool=dv-lottery-photo-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=dv-lottery-photo-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=usa&amp;tool=dv-lottery-photo-sheet" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=uk&amp;tool=uk-brp-photo-size</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=uk&amp;tool=uk-brp-photo-size" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=uk&amp;tool=uk-brp-photo-size" />
+    <loc>https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-brp-photo-size</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-brp-photo-size" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=uk&amp;tool=uk-brp-photo-size" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=canada&amp;tool=passport-canada</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=canada&amp;tool=passport-canada" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=canada&amp;tool=passport-canada" />
+    <loc>https://qwickton.pages.dev/passport?preset=canada&amp;tool=passport-canada</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=canada&amp;tool=passport-canada" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=canada&amp;tool=passport-canada" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=china&amp;tool=passport-china</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=china&amp;tool=passport-china" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=china&amp;tool=passport-china" />
+    <loc>https://qwickton.pages.dev/passport?preset=china&amp;tool=passport-china</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=china&amp;tool=passport-china" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=china&amp;tool=passport-china" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=australia&amp;tool=passport-australia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=australia&amp;tool=passport-australia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=australia&amp;tool=passport-australia" />
+    <loc>https://qwickton.pages.dev/passport?preset=australia&amp;tool=passport-australia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=australia&amp;tool=passport-australia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=australia&amp;tool=passport-australia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=japan&amp;tool=passport-japan</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=japan&amp;tool=passport-japan" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=japan&amp;tool=passport-japan" />
+    <loc>https://qwickton.pages.dev/passport?preset=japan&amp;tool=passport-japan</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=japan&amp;tool=passport-japan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=japan&amp;tool=passport-japan" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=southkorea&amp;tool=passport-south-korea</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=southkorea&amp;tool=passport-south-korea" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=southkorea&amp;tool=passport-south-korea" />
+    <loc>https://qwickton.pages.dev/passport?preset=southkorea&amp;tool=passport-south-korea</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=southkorea&amp;tool=passport-south-korea" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=southkorea&amp;tool=passport-south-korea" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=brazil&amp;tool=passport-brazil</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=brazil&amp;tool=passport-brazil" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=brazil&amp;tool=passport-brazil" />
+    <loc>https://qwickton.pages.dev/passport?preset=brazil&amp;tool=passport-brazil</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=brazil&amp;tool=passport-brazil" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=brazil&amp;tool=passport-brazil" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=mexico&amp;tool=passport-mexico</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=mexico&amp;tool=passport-mexico" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=mexico&amp;tool=passport-mexico" />
+    <loc>https://qwickton.pages.dev/passport?preset=mexico&amp;tool=passport-mexico</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=mexico&amp;tool=passport-mexico" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=mexico&amp;tool=passport-mexico" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=singapore&amp;tool=passport-singapore</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=singapore&amp;tool=passport-singapore" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=singapore&amp;tool=passport-singapore" />
+    <loc>https://qwickton.pages.dev/passport?preset=singapore&amp;tool=passport-singapore</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=singapore&amp;tool=passport-singapore" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=singapore&amp;tool=passport-singapore" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=newzealand&amp;tool=passport-new-zealand</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=newzealand&amp;tool=passport-new-zealand" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=newzealand&amp;tool=passport-new-zealand" />
+    <loc>https://qwickton.pages.dev/passport?preset=newzealand&amp;tool=passport-new-zealand</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=newzealand&amp;tool=passport-new-zealand" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=newzealand&amp;tool=passport-new-zealand" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=thailand&amp;tool=passport-thailand</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=thailand&amp;tool=passport-thailand" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=thailand&amp;tool=passport-thailand" />
+    <loc>https://qwickton.pages.dev/passport?preset=thailand&amp;tool=passport-thailand</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=thailand&amp;tool=passport-thailand" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=thailand&amp;tool=passport-thailand" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=nigeria&amp;tool=passport-nigeria</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=nigeria&amp;tool=passport-nigeria" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=nigeria&amp;tool=passport-nigeria" />
+    <loc>https://qwickton.pages.dev/passport?preset=nigeria&amp;tool=passport-nigeria</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=nigeria&amp;tool=passport-nigeria" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=nigeria&amp;tool=passport-nigeria" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=southafrica&amp;tool=passport-south-africa</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=southafrica&amp;tool=passport-south-africa" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=southafrica&amp;tool=passport-south-africa" />
+    <loc>https://qwickton.pages.dev/passport?preset=southafrica&amp;tool=passport-south-africa</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=southafrica&amp;tool=passport-south-africa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=southafrica&amp;tool=passport-south-africa" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=pakistan&amp;tool=passport-pakistan</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=pakistan&amp;tool=passport-pakistan" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=pakistan&amp;tool=passport-pakistan" />
+    <loc>https://qwickton.pages.dev/passport?preset=pakistan&amp;tool=passport-pakistan</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=pakistan&amp;tool=passport-pakistan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=pakistan&amp;tool=passport-pakistan" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=bangladesh&amp;tool=passport-bangladesh</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=bangladesh&amp;tool=passport-bangladesh" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=bangladesh&amp;tool=passport-bangladesh" />
+    <loc>https://qwickton.pages.dev/passport?preset=bangladesh&amp;tool=passport-bangladesh</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=bangladesh&amp;tool=passport-bangladesh" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=bangladesh&amp;tool=passport-bangladesh" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=srilanka&amp;tool=passport-sri-lanka</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=srilanka&amp;tool=passport-sri-lanka" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=srilanka&amp;tool=passport-sri-lanka" />
+    <loc>https://qwickton.pages.dev/passport?preset=srilanka&amp;tool=passport-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=srilanka&amp;tool=passport-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=srilanka&amp;tool=passport-sri-lanka" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=indonesia&amp;tool=passport-indonesia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=indonesia&amp;tool=passport-indonesia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=indonesia&amp;tool=passport-indonesia" />
+    <loc>https://qwickton.pages.dev/passport?preset=indonesia&amp;tool=passport-indonesia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=indonesia&amp;tool=passport-indonesia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=indonesia&amp;tool=passport-indonesia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=malaysia&amp;tool=passport-malaysia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=malaysia&amp;tool=passport-malaysia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=malaysia&amp;tool=passport-malaysia" />
+    <loc>https://qwickton.pages.dev/passport?preset=malaysia&amp;tool=passport-malaysia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=malaysia&amp;tool=passport-malaysia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=malaysia&amp;tool=passport-malaysia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=philippines&amp;tool=passport-philippines</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=philippines&amp;tool=passport-philippines" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=philippines&amp;tool=passport-philippines" />
+    <loc>https://qwickton.pages.dev/passport?preset=philippines&amp;tool=passport-philippines</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=philippines&amp;tool=passport-philippines" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=philippines&amp;tool=passport-philippines" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=vietnam&amp;tool=passport-vietnam</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=vietnam&amp;tool=passport-vietnam" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=vietnam&amp;tool=passport-vietnam" />
+    <loc>https://qwickton.pages.dev/passport?preset=vietnam&amp;tool=passport-vietnam</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=vietnam&amp;tool=passport-vietnam" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=vietnam&amp;tool=passport-vietnam" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=turkey&amp;tool=passport-turkey</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=turkey&amp;tool=passport-turkey" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=turkey&amp;tool=passport-turkey" />
+    <loc>https://qwickton.pages.dev/passport?preset=turkey&amp;tool=passport-turkey</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=turkey&amp;tool=passport-turkey" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=turkey&amp;tool=passport-turkey" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia" />
+    <loc>https://qwickton.pages.dev/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=saudiarabia&amp;tool=passport-saudi-arabia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=uae&amp;tool=passport-uae</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=uae&amp;tool=passport-uae" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=uae&amp;tool=passport-uae" />
+    <loc>https://qwickton.pages.dev/passport?preset=uae&amp;tool=passport-uae</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=uae&amp;tool=passport-uae" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=uae&amp;tool=passport-uae" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=israel&amp;tool=passport-israel</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=israel&amp;tool=passport-israel" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=israel&amp;tool=passport-israel" />
+    <loc>https://qwickton.pages.dev/passport?preset=israel&amp;tool=passport-israel</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=israel&amp;tool=passport-israel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=israel&amp;tool=passport-israel" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=egypt&amp;tool=passport-egypt</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=egypt&amp;tool=passport-egypt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=egypt&amp;tool=passport-egypt" />
+    <loc>https://qwickton.pages.dev/passport?preset=egypt&amp;tool=passport-egypt</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=egypt&amp;tool=passport-egypt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=egypt&amp;tool=passport-egypt" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=kenya&amp;tool=passport-kenya</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=kenya&amp;tool=passport-kenya" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=kenya&amp;tool=passport-kenya" />
+    <loc>https://qwickton.pages.dev/passport?preset=kenya&amp;tool=passport-kenya</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=kenya&amp;tool=passport-kenya" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=kenya&amp;tool=passport-kenya" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=russia&amp;tool=passport-russia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=russia&amp;tool=passport-russia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=russia&amp;tool=passport-russia" />
+    <loc>https://qwickton.pages.dev/passport?preset=russia&amp;tool=passport-russia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=russia&amp;tool=passport-russia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=russia&amp;tool=passport-russia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=argentina&amp;tool=passport-argentina</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=argentina&amp;tool=passport-argentina" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=argentina&amp;tool=passport-argentina" />
+    <loc>https://qwickton.pages.dev/passport?preset=argentina&amp;tool=passport-argentina</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=argentina&amp;tool=passport-argentina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=argentina&amp;tool=passport-argentina" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=colombia&amp;tool=passport-colombia</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=colombia&amp;tool=passport-colombia" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=colombia&amp;tool=passport-colombia" />
+    <loc>https://qwickton.pages.dev/passport?preset=colombia&amp;tool=passport-colombia</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=colombia&amp;tool=passport-colombia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=colombia&amp;tool=passport-colombia" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=chile&amp;tool=passport-chile</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=chile&amp;tool=passport-chile" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=chile&amp;tool=passport-chile" />
+    <loc>https://qwickton.pages.dev/passport?preset=chile&amp;tool=passport-chile</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=chile&amp;tool=passport-chile" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=chile&amp;tool=passport-chile" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/passport?preset=peru&amp;tool=passport-peru</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/passport?preset=peru&amp;tool=passport-peru" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/passport?preset=peru&amp;tool=passport-peru" />
+    <loc>https://qwickton.pages.dev/passport?preset=peru&amp;tool=passport-peru</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/passport?preset=peru&amp;tool=passport-peru" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/passport?preset=peru&amp;tool=passport-peru" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=ai-background-removal</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=ai-background-removal" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=ai-background-removal" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=ai-background-removal</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=ai-background-removal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=ai-background-removal" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=transparent-portrait</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=transparent-portrait" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=transparent-portrait" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=transparent-portrait</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=transparent-portrait" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=transparent-portrait" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=product-cutout</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=product-cutout" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=product-cutout" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=product-cutout</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=product-cutout" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=product-cutout" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=remove-backdrop</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=remove-backdrop" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=remove-backdrop" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=remove-backdrop</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=remove-backdrop" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=remove-backdrop" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=linkedin-headshot-bg</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=linkedin-headshot-bg" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=linkedin-headshot-bg" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=linkedin-headshot-bg</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=linkedin-headshot-bg" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=linkedin-headshot-bg" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=ecommerce-white-background</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=ecommerce-white-background" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=ecommerce-white-background" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=ecommerce-white-background</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=ecommerce-white-background" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=ecommerce-white-background" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=resume-photo-transparent</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=resume-photo-transparent" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=resume-photo-transparent" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=resume-photo-transparent</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=resume-photo-transparent" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=resume-photo-transparent" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=real-estate-photo-cutout</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=real-estate-photo-cutout" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=real-estate-photo-cutout" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=real-estate-photo-cutout</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=real-estate-photo-cutout" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=real-estate-photo-cutout" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/background-remove?tool=youtube-thumbnail-cutout</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/background-remove?tool=youtube-thumbnail-cutout" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/background-remove?tool=youtube-thumbnail-cutout" />
+    <loc>https://qwickton.pages.dev/background-remove?tool=youtube-thumbnail-cutout</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/background-remove?tool=youtube-thumbnail-cutout" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/background-remove?tool=youtube-thumbnail-cutout" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=word-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=word-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=word-to-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=word-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=word-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=word-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=docx-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=docx-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=docx-to-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=docx-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=docx-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=docx-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=microsoft-word-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=microsoft-word-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=microsoft-word-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=microsoft-word-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=microsoft-word-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=microsoft-word-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=document-docx-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=document-docx-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=document-docx-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=document-docx-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=document-docx-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=document-docx-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=office-word-convert-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=office-word-convert-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=office-word-convert-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=office-word-convert-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=office-word-convert-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=office-word-convert-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=docx-preview</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=docx-preview" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=docx-preview" />
+    <loc>https://qwickton.pages.dev/word?tool=docx-preview</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=docx-preview" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=docx-preview" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=docx-html-preview</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=docx-html-preview" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=docx-html-preview" />
+    <loc>https://qwickton.pages.dev/word?tool=docx-html-preview</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=docx-html-preview" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=docx-html-preview" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=docx-text-extract</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=docx-text-extract" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=docx-text-extract" />
+    <loc>https://qwickton.pages.dev/word?tool=docx-text-extract</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=docx-text-extract" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=docx-text-extract" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=extract-docx-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=extract-docx-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=extract-docx-text" />
+    <loc>https://qwickton.pages.dev/word?tool=extract-docx-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=extract-docx-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=extract-docx-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=document-content-reader</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=document-content-reader" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=document-content-reader" />
+    <loc>https://qwickton.pages.dev/word?tool=document-content-reader</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=document-content-reader" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=document-content-reader" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=dcr-docx</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=dcr-docx" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=dcr-docx" />
+    <loc>https://qwickton.pages.dev/word?tool=dcr-docx</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=dcr-docx" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=dcr-docx" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=legacy-doc-help</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=legacy-doc-help" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=legacy-doc-help" />
+    <loc>https://qwickton.pages.dev/word?tool=legacy-doc-help</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=legacy-doc-help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=legacy-doc-help" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=google-docs-save-docx</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=google-docs-save-docx" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=google-docs-save-docx" />
+    <loc>https://qwickton.pages.dev/word?tool=google-docs-save-docx</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=google-docs-save-docx" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=google-docs-save-docx" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=resume-docx-to-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=resume-docx-to-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=resume-docx-to-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=resume-docx-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=resume-docx-to-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=resume-docx-to-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=contract-docx-preview</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=contract-docx-preview" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=contract-docx-preview" />
+    <loc>https://qwickton.pages.dev/word?tool=contract-docx-preview</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=contract-docx-preview" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=contract-docx-preview" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=report-docx-print-pdf</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=report-docx-print-pdf" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=report-docx-print-pdf" />
+    <loc>https://qwickton.pages.dev/word?tool=report-docx-print-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=report-docx-print-pdf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=report-docx-print-pdf" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/word?tool=assignment-docx-convert</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/word?tool=assignment-docx-convert" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/word?tool=assignment-docx-convert" />
+    <loc>https://qwickton.pages.dev/word?tool=assignment-docx-convert</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/word?tool=assignment-docx-convert" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/word?tool=assignment-docx-convert" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=jpg-to-png</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=jpg-to-png" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=jpg-to-png" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=jpg-to-png</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=jpg-to-png" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=jpg-to-png" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=png-to-jpg" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=jpg-to-webp" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=png-to-webp-alt" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=webp-to-jpg" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=webp-to-png</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=webp-to-png" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=webp-to-png" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=webp-to-png</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=webp-to-png" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=webp-to-png" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=excel&amp;tool=excel-to-csv</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=excel&amp;tool=excel-to-csv" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=excel&amp;tool=excel-to-csv" />
+    <loc>https://qwickton.pages.dev/converter?tab=excel&amp;tool=excel-to-csv</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=excel-to-csv" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=excel-to-csv" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=excel&amp;tool=xlsx-to-csv</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=excel&amp;tool=xlsx-to-csv" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=excel&amp;tool=xlsx-to-csv" />
+    <loc>https://qwickton.pages.dev/converter?tab=excel&amp;tool=xlsx-to-csv</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=xlsx-to-csv" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=xlsx-to-csv" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=excel&amp;tool=spreadsheet-csv</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=excel&amp;tool=spreadsheet-csv" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=excel&amp;tool=spreadsheet-csv" />
+    <loc>https://qwickton.pages.dev/converter?tab=excel&amp;tool=spreadsheet-csv</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=spreadsheet-csv" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=spreadsheet-csv" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-excel</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-excel" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-excel" />
+    <loc>https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-excel</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-excel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-excel" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-xlsx</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-xlsx" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=csv&amp;tool=csv-to-xlsx" />
+    <loc>https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-xlsx</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-xlsx" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=csv-to-xlsx" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=csv&amp;tool=open-csv-excel</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=csv&amp;tool=open-csv-excel" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=csv&amp;tool=open-csv-excel" />
+    <loc>https://qwickton.pages.dev/converter?tab=csv&amp;tool=open-csv-excel</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=open-csv-excel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=open-csv-excel" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;tool=image-format-converter</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;tool=image-format-converter" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;tool=image-format-converter" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;tool=image-format-converter</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;tool=image-format-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;tool=image-format-converter" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=excel&amp;tool=xls-convert-csv</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=excel&amp;tool=xls-convert-csv" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=excel&amp;tool=xls-convert-csv" />
+    <loc>https://qwickton.pages.dev/converter?tab=excel&amp;tool=xls-convert-csv</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=xls-convert-csv" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=xls-convert-csv" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=csv&amp;tool=data-sheet-csv-excel</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=csv&amp;tool=data-sheet-csv-excel" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=csv&amp;tool=data-sheet-csv-excel" />
+    <loc>https://qwickton.pages.dev/converter?tab=csv&amp;tool=data-sheet-csv-excel</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=data-sheet-csv-excel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=data-sheet-csv-excel" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=webp&amp;tool=gif-convert-note" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=excel&amp;tool=google-sheets-export-csv</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=excel&amp;tool=google-sheets-export-csv" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=excel&amp;tool=google-sheets-export-csv" />
+    <loc>https://qwickton.pages.dev/converter?tab=excel&amp;tool=google-sheets-export-csv</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=google-sheets-export-csv" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=excel&amp;tool=google-sheets-export-csv" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=csv&amp;tool=notepad-csv-to-excel</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=csv&amp;tool=notepad-csv-to-excel" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=csv&amp;tool=notepad-csv-to-excel" />
+    <loc>https://qwickton.pages.dev/converter?tab=csv&amp;tool=notepad-csv-to-excel</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=notepad-csv-to-excel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=csv&amp;tool=notepad-csv-to-excel" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=logo-png-export</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=logo-png-export" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=png&amp;tool=logo-png-export" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=logo-png-export</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=logo-png-export" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=png&amp;tool=logo-png-export" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export" />
+    <loc>https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/converter?tab=image&amp;out=jpeg&amp;tool=social-jpeg-export" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=json-pretty</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=json-pretty" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=json-pretty" />
+    <loc>https://qwickton.pages.dev/text?tool=json-pretty</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=json-pretty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=json-pretty" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=json-minify</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=json-minify" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=json-minify" />
+    <loc>https://qwickton.pages.dev/text?tool=json-minify</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=json-minify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=json-minify" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=json-format</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=json-format" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=json-format" />
+    <loc>https://qwickton.pages.dev/text?tool=json-format</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=json-format" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=json-format" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=validate-json</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=validate-json" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=validate-json" />
+    <loc>https://qwickton.pages.dev/text?tool=validate-json</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=validate-json" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=validate-json" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=base64-encode</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=base64-encode" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=base64-encode" />
+    <loc>https://qwickton.pages.dev/text?tool=base64-encode</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=base64-encode" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=base64-encode" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=base64-decode</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=base64-decode" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=base64-decode" />
+    <loc>https://qwickton.pages.dev/text?tool=base64-decode</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=base64-decode" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=base64-decode" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=text-to-base64</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=text-to-base64" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=text-to-base64" />
+    <loc>https://qwickton.pages.dev/text?tool=text-to-base64</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=text-to-base64" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=text-to-base64" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=url-encode</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=url-encode" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=url-encode" />
+    <loc>https://qwickton.pages.dev/text?tool=url-encode</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=url-encode" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=url-encode" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=url-decode</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=url-decode" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=url-decode" />
+    <loc>https://qwickton.pages.dev/text?tool=url-decode</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=url-decode" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=url-decode" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=encode-uri-component</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=encode-uri-component" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=encode-uri-component" />
+    <loc>https://qwickton.pages.dev/text?tool=encode-uri-component</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=encode-uri-component" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=encode-uri-component" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=html-escape</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=html-escape" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=html-escape" />
+    <loc>https://qwickton.pages.dev/text?tool=html-escape</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=html-escape" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=html-escape" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=html-unescape</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=html-unescape" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=html-unescape" />
+    <loc>https://qwickton.pages.dev/text?tool=html-unescape</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=html-unescape" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=html-unescape" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=uppercase-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=uppercase-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=uppercase-text" />
+    <loc>https://qwickton.pages.dev/text?tool=uppercase-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=uppercase-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=uppercase-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=lowercase-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=lowercase-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=lowercase-text" />
+    <loc>https://qwickton.pages.dev/text?tool=lowercase-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=lowercase-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=lowercase-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=title-case-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=title-case-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=title-case-text" />
+    <loc>https://qwickton.pages.dev/text?tool=title-case-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=title-case-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=title-case-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=trim-lines</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=trim-lines" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=trim-lines" />
+    <loc>https://qwickton.pages.dev/text?tool=trim-lines</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=trim-lines" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=trim-lines" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=remove-empty-lines</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=remove-empty-lines" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=remove-empty-lines" />
+    <loc>https://qwickton.pages.dev/text?tool=remove-empty-lines</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=remove-empty-lines" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=remove-empty-lines" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=sort-lines</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=sort-lines" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=sort-lines" />
+    <loc>https://qwickton.pages.dev/text?tool=sort-lines</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=sort-lines" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=sort-lines" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=dedupe-lines</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=dedupe-lines" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=dedupe-lines" />
+    <loc>https://qwickton.pages.dev/text?tool=dedupe-lines</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=dedupe-lines" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=dedupe-lines" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=reverse-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=reverse-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=reverse-text" />
+    <loc>https://qwickton.pages.dev/text?tool=reverse-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=reverse-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=reverse-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=slugify</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=slugify" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=slugify" />
+    <loc>https://qwickton.pages.dev/text?tool=slugify</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=slugify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=slugify" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=uuid-v4</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=uuid-v4" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=uuid-v4" />
+    <loc>https://qwickton.pages.dev/text?tool=uuid-v4</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=uuid-v4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=uuid-v4" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=random-uuid</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=random-uuid" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=random-uuid" />
+    <loc>https://qwickton.pages.dev/text?tool=random-uuid</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=random-uuid" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=random-uuid" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=word-count</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=word-count" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=word-count" />
+    <loc>https://qwickton.pages.dev/text?tool=word-count</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=word-count" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=word-count" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=stats-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=stats-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=stats-text" />
+    <loc>https://qwickton.pages.dev/text?tool=stats-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=stats-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=stats-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=sha-256-text</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=sha-256-text" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=sha-256-text" />
+    <loc>https://qwickton.pages.dev/text?tool=sha-256-text</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=sha-256-text" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=sha-256-text" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=hash-text-hex</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=hash-text-hex" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=hash-text-hex" />
+    <loc>https://qwickton.pages.dev/text?tool=hash-text-hex</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=hash-text-hex" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=hash-text-hex" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=sort-lines-desc</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=sort-lines-desc" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=sort-lines-desc" />
+    <loc>https://qwickton.pages.dev/text?tool=sort-lines-desc</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=sort-lines-desc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=sort-lines-desc" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qwickton.example.com/text?tool=sort-lines-z-a</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.example.com/text?tool=sort-lines-z-a" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.example.com/text?tool=sort-lines-z-a" />
+    <loc>https://qwickton.pages.dev/text?tool=sort-lines-z-a</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qwickton.pages.dev/text?tool=sort-lines-z-a" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qwickton.pages.dev/text?tool=sort-lines-z-a" />
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
