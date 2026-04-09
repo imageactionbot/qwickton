@@ -429,9 +429,15 @@ export function App() {
   const mod = useModKeyLabel();
   const mobileMenuBtnRef = useRef<HTMLButtonElement>(null);
   const prevMobileOpen = useRef(false);
+  const ga4InitialSkip = useRef(true);
 
   useEffect(() => {
-    syncGa4PageView(`${location.pathname}${location.search}`);
+    const path = `${location.pathname}${location.search}`;
+    if (ga4InitialSkip.current) {
+      ga4InitialSkip.current = false;
+      return;
+    }
+    syncGa4PageView(path);
   }, [location.pathname, location.search]);
 
   useEffect(() => {

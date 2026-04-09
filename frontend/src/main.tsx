@@ -3,12 +3,10 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { App } from "./app/App";
 import { bootstrapAdsense } from "./lib/ads/bootstrapAdsense";
-import { bootstrapGa4 } from "./lib/analytics/bootstrapGa4";
 import { initThemeFromStorage } from "./lib/theme/themePreference";
 import "./styles.css";
 
 initThemeFromStorage();
-bootstrapGa4();
 bootstrapAdsense();
 
 createRoot(document.getElementById("qwickton-app") as HTMLElement).render(
