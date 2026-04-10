@@ -18,6 +18,11 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
+  const path = new URL(req.url).pathname;
+  // Do not intercept — crawlers (AdSense, Googlebot) must get origin response, not SW quirks.
+  if (path === "/ads.txt" || path === "/robots.txt" || path === "/sitemap.xml") {
+    return;
+  }
   if (req.mode === "navigate") {
     event.respondWith(
       fetch(req)
