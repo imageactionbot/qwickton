@@ -104,12 +104,30 @@ try {
 const page = await browser.newPage();
 const base = `http://127.0.0.1:${port}`;
 
+/** Prerender HTML must still carry AdSense tags for crawlers that do not run JS. */
+function ensureAdsenseCrawlMarkup(html) {
+  let out = html;
+  if (!/name=["']google-adsense-account["']/i.test(out)) {
+    out = out.replace(
+      /<head([^>]*)>/i,
+      `<head$1>\n    <meta name="google-adsense-account" content="ca-pub-5368355682383000" />`,
+    );
+  }
+  if (!/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js/i.test(out)) {
+    out = out.replace(
+      /<\/head>/i,
+      `    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368355682383000" crossorigin="anonymous"></script>\n  </head>`,
+    );
+  }
+  return out;
+}
+
 try {
   for (const pathname of pathnames) {
     const url = base + (pathname === "/" ? "/" : pathname.replace(/\/$/, "") || "/");
     await page.goto(url, { waitUntil: "networkidle", timeout: 120000 });
     await new Promise((r) => setTimeout(r, 600));
-    const html = await page.content();
+    const html = ensureAdsenseCrawlMarkup(await page.content());
     if (pathname === "/" || pathname === "") {
       writeFileSync(join(dist, "index.html"), html, "utf8");
     } else {

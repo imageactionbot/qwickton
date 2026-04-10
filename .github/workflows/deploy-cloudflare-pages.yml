@@ -8,7 +8,7 @@
 #     CLOUDFLARE_PAGES_PROJECT → Project ka naam (jaise qwickton)
 #     VITE_SITE_URL            → https://tumhara-domain.com  (sitemap / SEO)
 #   Optional secrets:
-#     VITE_ADSENSE_CLIENT       → ca-pub-... (ads + dist/ads.txt on build)
+#     VITE_ADSENSE_CLIENT       → ca-pub-5368355682383000 (same as index.html; ads.txt on build)
 #
 name: Deploy Cloudflare Pages
 
@@ -47,8 +47,16 @@ jobs:
         working-directory: frontend
         env:
           VITE_SITE_URL: ${{ secrets.VITE_SITE_URL }}
-          VITE_ADSENSE_CLIENT: ${{ secrets.VITE_ADSENSE_CLIENT }}
+          # ads.txt + bundle fallback; override via secret if publisher id ever changes
+          VITE_ADSENSE_CLIENT: ${{ secrets.VITE_ADSENSE_CLIENT != '' && secrets.VITE_ADSENSE_CLIENT || 'ca-pub-5368355682383000' }}
         run: npm run build
+
+      - name: Verify AdSense artifacts
+        working-directory: frontend
+        run: |
+          test -f dist/ads.txt || (echo "::error::dist/ads.txt missing — add public/ads.txt or VITE_ADSENSE_CLIENT" && exit 1)
+          grep -q "pub-5368355682383000" dist/ads.txt || (echo "::error::dist/ads.txt missing publisher line" && exit 1)
+          grep -q "google-adsense-account" dist/index.html || (echo "::error::prerendered index missing AdSense meta" && exit 1)
 
       - name: Check Cloudflare secrets
         env:

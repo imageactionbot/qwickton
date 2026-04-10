@@ -1,10 +1,12 @@
 /**
  * Google AdSense loader for Auto Ads + optional manual units later.
  * Set VITE_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX in .env.production (full client id).
- * When unset, nothing loads — dev/staging stays clean.
+ * Production builds fall back to ADSENSE_CA_PUB_FULL so layout + meta stay aligned with index.html.
  *
  * Intrusive formats (fullscreen, vignette) are controlled in the AdSense console, not here.
  */
+import { ADSENSE_CA_PUB_FULL } from "./adsensePublisherId";
+
 const SCRIPT_HOST = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 
 let loaded = false;
@@ -17,22 +19,39 @@ export function getAdsenseClientId(): string | undefined {
   return raw;
 }
 
+/** Client id for this deployment (env override, else production default). */
+export function getEffectiveAdsenseClientId(): string | undefined {
+  return getAdsenseClientId() ?? (import.meta.env.PROD ? ADSENSE_CA_PUB_FULL : undefined);
+}
+
+function ensureAdsenseAccountMeta(client: string): void {
+  if (document.querySelector('meta[name="google-adsense-account"]')) return;
+  const el = document.createElement("meta");
+  el.setAttribute("name", "google-adsense-account");
+  el.setAttribute("content", client);
+  document.head.prepend(el);
+}
+
 export function bootstrapAdsense(): void {
   if (typeof document === "undefined" || loaded) return;
-  const client = getAdsenseClientId();
+  const client = getEffectiveAdsenseClientId();
 
   const existingHead = document.querySelector(
     'script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]',
   );
   if (existingHead) {
     loaded = true;
-    if (client) document.documentElement.classList.add("qk-ads");
+    if (client) {
+      ensureAdsenseAccountMeta(client);
+      document.documentElement.classList.add("qk-ads");
+    }
     return;
   }
 
   if (!client) return;
 
   loaded = true;
+  ensureAdsenseAccountMeta(client);
   document.documentElement.classList.add("qk-ads");
 
   const existing = document.querySelector(`script[data-qk-adsense="1"]`);
@@ -47,5 +66,5 @@ export function bootstrapAdsense(): void {
 }
 
 export function isAdsenseConfigured(): boolean {
-  return Boolean(getAdsenseClientId());
+  return Boolean(getEffectiveAdsenseClientId());
 }

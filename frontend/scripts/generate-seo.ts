@@ -61,6 +61,12 @@ writeFileSync(join(publicDir, "sitemap.xml"), sitemap, "utf8");
 const robots = `User-agent: *
 Allow: /
 
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
 Sitemap: ${origin}/sitemap.xml
 `;
 

@@ -20,4 +20,6 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
       - run: npm ci
       - run: npm run build
+        env:
+          VITE_ADSENSE_CLIENT: ${{ secrets.VITE_ADSENSE_CLIENT != '' && secrets.VITE_ADSENSE_CLIENT || 'ca-pub-5368355682383000' }}
       - run: npm test
