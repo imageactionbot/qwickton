@@ -2,13 +2,14 @@
 #
 # Pehle Cloudflare dashboard mein Pages project banao (Direct Upload / any).
 # Phir GitHub repo → Settings → Secrets and variables → Actions:
-#   Secrets:
+#   Secrets (required for deploy):
 #     CLOUDFLARE_API_TOKEN     → API Token with "Cloudflare Pages — Edit"
 #     CLOUDFLARE_ACCOUNT_ID    → Dashboard right sidebar / Overview
 #     CLOUDFLARE_PAGES_PROJECT → Project ka naam (jaise qwickton)
-#     VITE_SITE_URL            → https://tumhara-domain.com  (sitemap / SEO)
-#   Optional secrets:
-#     VITE_ADSENSE_CLIENT       → ca-pub-5368355682383000 (same as index.html; ads.txt on build)
+#   Recommended:
+#     VITE_SITE_URL            → https://www.qwickton.com  (trailing slash mat)
+#   Optional:
+#     VITE_ADSENSE_CLIENT      → ca-pub-5368355682383000 (build default hai agar khali ho)
 #
 name: Deploy Cloudflare Pages
 
@@ -28,14 +29,33 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      # actions/checkout & setup-node ke Node 20 deprecation warning se bachte hain (GitHub 2026)
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check Cloudflare secrets (fail fast)
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROJECT: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
+        run: |
+          missing=""
+          [ -z "$CF_TOKEN" ] && missing="${missing} CLOUDFLARE_API_TOKEN"
+          [ -z "$CF_ACCOUNT" ] && missing="${missing} CLOUDFLARE_ACCOUNT_ID"
+          [ -z "$CF_PROJECT" ] && missing="${missing} CLOUDFLARE_PAGES_PROJECT"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing GitHub Actions secrets:$missing"
+            echo "::notice::Repo → Settings → Secrets and variables → Actions → New repository secret. Cloudflare: My Profile → API Tokens (Pages Edit). Account ID: dashboard right column. Project name: Pages → project name."
+            exit 1
+          fi
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
           cache-dependency-path: frontend/package-lock.json
 
@@ -47,7 +67,6 @@ jobs:
         working-directory: frontend
         env:
           VITE_SITE_URL: ${{ secrets.VITE_SITE_URL }}
-          # ads.txt + bundle fallback; override via secret if publisher id ever changes
           VITE_ADSENSE_CLIENT: ${{ secrets.VITE_ADSENSE_CLIENT != '' && secrets.VITE_ADSENSE_CLIENT || 'ca-pub-5368355682383000' }}
         run: npm run build
 
@@ -57,17 +76,6 @@ jobs:
           test -f dist/ads.txt || (echo "::error::dist/ads.txt missing — add public/ads.txt or VITE_ADSENSE_CLIENT" && exit 1)
           grep -q "pub-5368355682383000" dist/ads.txt || (echo "::error::dist/ads.txt missing publisher line" && exit 1)
           grep -q "google-adsense-account" dist/index.html || (echo "::error::prerendered index missing AdSense meta" && exit 1)
-
-      - name: Check Cloudflare secrets
-        env:
-          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CF_PROJECT: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
-        run: |
-          if [ -z "$CF_TOKEN" ] || [ -z "$CF_ACCOUNT" ] || [ -z "$CF_PROJECT" ]; then
-            echo "::error::GitHub repo → Settings → Secrets → Actions: add CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_PAGES_PROJECT (and VITE_SITE_URL for real sitemap)."
-            exit 1
-          fi
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
