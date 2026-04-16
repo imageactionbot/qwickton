@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Personal Tools - BMI Calculator, BMR & TDEE, Hydration Planner | Qwickton</title>
+  <meta name="description" content="Professional personal health tools: BMI calculator, BMR & TDEE calculator with activity levels, daily water intake planner. All browser-based, privacy-first." />
+  <meta name="keywords" content="personal tools, bmi calculator, bmr calculator, tdee calculator, water intake calculator, health tools, fitness tools, Qwickton" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/personal-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark" aria-hidden="true">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="page-main container" id="main-content" data-category-page="personal-tools">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" id="categoryCrumb">Personal Tools</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="categoryTitle">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free · 11+ Tools · Global-Ready</span>
+      </div>
+      <h1 id="categoryTitle">Personal <span class="gradient-text">Health Tools</span></h1>
+      <p id="categoryDescription" class="hero-description">
+        Professional personal health calculators: BMI calculator with healthy weight range,
+        BMR & TDEE calculator with activity levels, hydration planner, steps distance tracker,
+        and global age/date formatting for users across countries.
+      </p>
+      <div class="trust-bar" role="list" aria-label="Key features">
+        <span role="listitem">✓ 100% Free</span>
+        <span role="listitem">✓ No Signup</span>
+        <span role="listitem">✓ Privacy First</span>
+        <span role="listitem">✓ Instant Results</span>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <nav class="tool-nav" aria-label="Jump to tool">
+      <button class="tool-nav-btn active" type="button" data-target="bmi">⚖️ BMI Calculator</button>
+      <button class="tool-nav-btn" type="button" data-target="bmr">🔥 BMR & TDEE</button>
+      <button class="tool-nav-btn" type="button" data-target="water">💧 Hydration Planner</button>
+      <button class="tool-nav-btn" type="button" data-target="steps">🚶 Steps Planner</button>
+      <button class="tool-nav-btn" type="button" data-target="ageglobal">🌍 Global Age</button>
+    </nav>
+
+    <!-- Ad Top -->
+    <div class="ad-slot top-banner" aria-label="Advertisement">
+      <p>📢 Ad Placement: Top Banner</p>
+    </div>
+
+    <!-- Tool Grid (JS injects cards here) -->
+    <div class="tool-grid" id="categoryToolGrid" aria-label="Personal health tools"></div>
+
+    <!-- Ad Mid -->
+    <div class="ad-slot" style="margin-top:1.5rem" aria-label="Advertisement">
+      <p>📢 Ad Placement: Between Tools</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is BMI and how is it calculated?</summary>
+          <p>Body Mass Index (BMI) is a measure of body fat based on height and weight. It's calculated as weight (kg) divided by height squared (m²).</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is BMR vs TDEE?</summary>
+          <p>BMR (Basal Metabolic Rate) is calories burned at rest. TDEE (Total Daily Energy Expenditure) includes activity level and represents total daily calorie needs.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much water should I drink daily?</summary>
+          <p>The calculator uses weight-based formula (35ml/kg) plus workout and climate adjustments for personalized hydration recommendations.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is my health data saved anywhere?</summary>
+          <p>Your calculation history is saved locally in your browser. No data is ever sent to any server.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can this be used in different countries?</summary>
+          <p>Yes. Global Age formatter supports locale-aware date formats for multiple countries.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Free Personal Tools</p>
+      <p>
+        <a href="../index.html">Back to Dashboard</a> ·
+        <a href="daily-tools.html">Daily Tools</a> ·
+        <a href="health-tools.html">Health Tools</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS (Correct order for category bootstrap system) ═══ -->
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/personal-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

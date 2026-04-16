@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>File Tools Pro - Inspector, Checksum, Text Reader, Image Converter, PDF Extractor, ZIP, Encrypt, Compress | Qwickton</title>
+  <meta name="description" content="Professional file tools: File inspector, checksum generator (SHA-256/512), text reader, image to base64, PDF text extractor, file compressor, ZIP creator, file encryptor, metadata viewer, MIME type detector, duplicate finder, batch renamer." />
+  <meta name="keywords" content="file tools, file inspector, checksum generator, sha256, text reader, image to base64, pdf extractor, file compressor, zip creator, file encryptor, metadata viewer, duplicate finder" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/file-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main container" id="main-content" data-category-page="file-tools">
+    <nav class="breadcrumb-nav">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li aria-current="page">File Tools</li>
+      </ol>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Free · 13+ Tools · Global-Ready</span></div>
+      <h1 id="categoryTitle">File <span class="gradient-text">Tools Suite</span></h1>
+      <p class="hero-description">
+        Professional file tools: Inspector, Checksum (SHA-256/512), Text Reader, Image to Base64,
+        PDF metadata extractor, compression estimator, secure encryptor, metadata viewer, MIME detector,
+        duplicate finder, batch renamer, manifest builder, transfer ETA, and more.
+      </p>
+      <div class="trust-bar"><span>✓ 100% Free</span><span>✓ Files Never Leave</span><span>✓ Privacy First</span><span>✓ Locale Aware Output</span></div>
+    </section>
+
+    <nav class="tool-nav">
+      <button class="tool-nav-btn active" type="button" data-target="inspector">🔍 Inspector</button>
+      <button class="tool-nav-btn" type="button" data-target="checksum">🔐 Checksum</button>
+      <button class="tool-nav-btn" type="button" data-target="textreader">📄 Text Reader</button>
+      <button class="tool-nav-btn" type="button" data-target="imagebase64">🖼️ Image→Base64</button>
+      <button class="tool-nav-btn" type="button" data-target="pdfextract">📑 PDF Extract</button>
+      <button class="tool-nav-btn" type="button" data-target="compressor">🗜️ Compressor</button>
+      <button class="tool-nav-btn" type="button" data-target="encrypt">🔒 Encrypt</button>
+      <button class="tool-nav-btn" type="button" data-target="metadata">ℹ️ Metadata</button>
+      <button class="tool-nav-btn" type="button" data-target="mime">📁 MIME Type</button>
+      <button class="tool-nav-btn" type="button" data-target="duplicate">🔄 Duplicate</button>
+      <button class="tool-nav-btn" type="button" data-target="renamer">✏️ Batch Rename</button>
+      <button class="tool-nav-btn" type="button" data-target="manifest">🧾 Manifest</button>
+      <button class="tool-nav-btn" type="button" data-target="transfer">🌐 Transfer ETA</button>
+    </nav>
+
+    <div class="ad-slot"><p>📢 Ad Placement: Top Banner</p></div>
+    <div class="tool-grid" id="categoryToolGrid"></div>
+    <div class="ad-slot"><p>📢 Ad Placement: Between Tools</p></div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What file tools are available?</summary><p>Inspector, checksum, text reader, image to base64, PDF extractor, compressor, encryptor, metadata viewer, MIME detector, duplicate finder, batch renamer.</p></details>
+        <details class="faq-item"><summary>Are my files uploaded anywhere?</summary><p>No! All processing happens locally. Files never leave your browser.</p></details>
+        <details class="faq-item"><summary>Can I download results?</summary><p>Yes! Most tools support TXT download.</p></details>
+        <details class="faq-item"><summary>Is it useful for global teams?</summary><p>Yes. Metadata and manifest tools support locale-aware date/time formatting for different countries.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — File Tools Suite</p>
+      <p><a href="../index.html">Back to Dashboard</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/file-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

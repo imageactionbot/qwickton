@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Image Tools Pro — Lab, Compress, Watermark, Crop, Palette | Qwickton</title>
+  <meta name="description" content="13 free browser image tools: full lab (contrast/saturation/blur/transforms), quick resize, web compress, text watermark, center crop, palette export, base64, file info JSON, grayscale, rotate, solid/gradient PNG." />
+  <meta name="keywords" content="image tools, image editor, resize image, image filters, grayscale, sepia, blur image, brightness, rotate image, flip image, image converter, Qwickton" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/image-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark" aria-hidden="true">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="page-main container" id="main-content" data-category-page="image-tools">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" id="categoryCrumb">Image Tools</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="categoryTitle">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free · Browser-Only · Privacy First</span>
+      </div>
+      <h1 id="categoryTitle">Image <span class="gradient-text">Tools Suite</span></h1>
+      <p id="categoryDescription" class="hero-description">
+        13 in-browser tools: full image lab (brightness, contrast, saturation, blur, transforms), quick resize,
+        compress, watermark, center crop, palette sampling, base64 helpers, metadata export, and more — all local.
+      </p>
+      <div class="trust-bar" role="list" aria-label="Key features">
+        <span role="listitem">✓ 100% Free</span>
+        <span role="listitem">✓ No upload</span>
+        <span role="listitem">✓ PNG / JPEG / WebP</span>
+        <span role="listitem">✓ TXT / JSON exports where useful</span>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <nav class="tool-nav" aria-label="Jump to tool">
+      <button type="button" class="tool-nav-btn active" data-target="editor">🎨 Lab</button>
+      <button type="button" class="tool-nav-btn" data-target="quickresize">📐 Resize</button>
+      <button type="button" class="tool-nav-btn" data-target="compress">🗜️ Zip</button>
+      <button type="button" class="tool-nav-btn" data-target="watermark">✒️ Mark</button>
+      <button type="button" class="tool-nav-btn" data-target="croppreset">✂️ Crop</button>
+      <button type="button" class="tool-nav-btn" data-target="imgb64">🔣 B64</button>
+      <button type="button" class="tool-nav-btn" data-target="b64prev">🖼️ Preview</button>
+      <button type="button" class="tool-nav-btn" data-target="aspect">📊 Ratio</button>
+      <button type="button" class="tool-nav-btn" data-target="fileinfo">ℹ️ Info</button>
+      <button type="button" class="tool-nav-btn" data-target="palette">🎨 Colors</button>
+      <button type="button" class="tool-nav-btn" data-target="grayexport">⬛ Gray</button>
+      <button type="button" class="tool-nav-btn" data-target="rot90">↻ Turn</button>
+      <button type="button" class="tool-nav-btn" data-target="solid">⬜ Solid</button>
+    </nav>
+
+    <!-- Ad Top -->
+    <div class="ad-slot top-banner" aria-label="Advertisement">
+      <p>📢 Ad Placement: Top Banner</p>
+    </div>
+
+    <!-- Tool Grid (JS injects cards here) -->
+    <div class="tool-grid" id="categoryToolGrid" aria-label="Image tools"></div>
+
+    <!-- Ad Mid -->
+    <div class="ad-slot" style="margin-top:1.5rem" aria-label="Advertisement">
+      <p>📢 Ad Placement: Between Tools</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Are my images uploaded to any server?</summary>
+          <p>No! All image processing happens locally in your browser using Canvas API. Your images never leave your device.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What image formats are supported?</summary>
+          <p>Upload: JPEG, PNG, WebP, GIF, BMP. Download: PNG, JPEG, WebP formats.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What filters can I apply?</summary>
+          <p>In Image Lab: brightness, contrast, saturation, blur, grayscale, sepia, invert, rotate, flip — with aspect-locked resize and safe export.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I resize images?</summary>
+          <p>Yes! Set custom width/height or use percentage scaling. Maintains aspect ratio option available.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Free Image Tools</p>
+      <p>
+        <a href="../index.html">Back to Dashboard</a> ·
+        <a href="daily-tools.html">Daily Tools</a> ·
+        <a href="design-tools.html">Design Tools</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS (Correct order for category bootstrap system) ═══ -->
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/image-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

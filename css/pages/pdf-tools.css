@@ -1,0 +1,737 @@
+/* ============================================
+   PDF TOOLS - PROFESSIONAL DESIGN SYSTEM
+   Complete dark/light mode, animations, responsive
+   ============================================ */
+
+/* ---------- CSS CUSTOM PROPERTIES ---------- */
+:root {
+  --pdf-primary: #ef4444;
+  --pdf-primary-dark: #dc2626;
+  --pdf-primary-light: #f87171;
+  --pdf-primary-bg: #fee2e2;
+  --pdf-secondary: #8b5cf6;
+  --pdf-secondary-bg: #ede9fe;
+  --pdf-success: #10b981;
+  --pdf-success-bg: #d1fae5;
+  --pdf-warning: #f59e0b;
+  --pdf-surface: #ffffff;
+  --pdf-surface-2: #f9fafb;
+  --pdf-surface-3: #f3f4f6;
+  --pdf-border: #e5e7eb;
+  --pdf-border-strong: #d1d5db;
+  --pdf-text: #111827;
+  --pdf-text-2: #6b7280;
+  --pdf-text-3: #9ca3af;
+  --pdf-radius-sm: 8px;
+  --pdf-radius: 12px;
+  --pdf-radius-lg: 16px;
+  --pdf-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  --pdf-shadow-hover: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --pdf-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --pdf-font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --pdf-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+/* ---------- BASE RESETS ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--pdf-font-body);
+  background: var(--pdf-surface-2);
+  color: var(--pdf-text);
+  line-height: 1.5;
+  transition: var(--pdf-transition);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- HEADER ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--pdf-surface);
+  border-bottom: 1px solid var(--pdf-border);
+  backdrop-filter: blur(10px);
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--pdf-text);
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, var(--pdf-primary), var(--pdf-primary-dark));
+  border-radius: var(--pdf-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+}
+
+/* ---------- BREADCRUMB ---------- */
+.breadcrumb-nav {
+  margin: 1.5rem 0 1rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--pdf-text-3);
+}
+
+.breadcrumb li + li::before {
+  content: "›";
+  margin-right: 0.5rem;
+}
+
+.breadcrumb a {
+  color: var(--pdf-primary);
+  text-decoration: none;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero-section {
+  margin: 2rem 0 3rem;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--pdf-primary-bg);
+  color: var(--pdf-primary);
+  padding: 0.35rem 1rem;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.badge-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--pdf-primary);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+}
+
+#categoryTitle {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--pdf-primary), var(--pdf-primary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: var(--pdf-text-2);
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.trust-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: var(--pdf-success);
+  font-weight: 500;
+}
+
+/* ---------- TOOL NAVIGATION ---------- */
+.tool-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: var(--pdf-radius);
+}
+
+.tool-nav-btn {
+  background: none;
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-2);
+  font-family: var(--pdf-font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: var(--pdf-radius-sm);
+  cursor: pointer;
+  transition: var(--pdf-transition);
+}
+
+.tool-nav-btn:hover,
+.tool-nav-btn.active {
+  background: var(--pdf-primary);
+  border-color: var(--pdf-primary);
+  color: white;
+}
+
+/* ---------- TOOL GRID ---------- */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* ---------- CARDS ---------- */
+.pdf-card {
+  background: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: var(--pdf-radius-lg);
+  padding: 1.5rem;
+  transition: var(--pdf-transition);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.pdf-card:nth-child(2) { animation-delay: 0.05s; }
+.pdf-card:nth-child(3) { animation-delay: 0.1s; }
+.pdf-card:nth-child(4) { animation-delay: 0.15s; }
+
+.pdf-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pdf-primary), var(--pdf-primary-light));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.pdf-card:hover::before {
+  transform: scaleX(1);
+}
+
+.pdf-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--pdf-shadow-hover);
+}
+
+.pdf-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--pdf-border);
+}
+
+.pdf-card-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--pdf-primary-bg), transparent);
+  border-radius: var(--pdf-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: var(--pdf-transition);
+}
+
+.pdf-card:hover .pdf-card-icon {
+  transform: scale(1.05) rotate(5deg);
+}
+
+.pdf-card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--pdf-text);
+  flex: 1;
+}
+
+/* Focus Modal */
+.pdf-focus-btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.pdf-focus-btn.is-hidden {
+  display: none !important;
+}
+
+.pdf-focus-inline-close {
+  display: none !important;
+}
+
+.pdf-focus-inline-close.active {
+  display: inline-flex !important;
+}
+
+.pdf-focus-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--pdf-transition);
+}
+
+.pdf-focus-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.pdf-focus-host {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.pdf-focus-host.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.pdf-card.is-focused {
+  position: relative;
+  width: min(900px, 90vw);
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: var(--pdf-shadow-hover);
+  pointer-events: auto;
+  transform: none !important;
+}
+
+body.pdf-modal-open {
+  overflow: hidden;
+}
+
+/* ---------- FORM ELEMENTS ---------- */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+input[type="file"] {
+  width: 100%;
+  font-family: var(--pdf-font-body);
+  font-size: 0.875rem;
+  background: var(--pdf-surface-2);
+  border: 1.5px solid var(--pdf-border);
+  border-radius: var(--pdf-radius-sm);
+  padding: 0.6rem 0.75rem;
+  color: var(--pdf-text);
+  transition: var(--pdf-transition);
+  cursor: pointer;
+  margin-bottom: 0.75rem;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: var(--pdf-primary);
+  box-shadow: 0 0 0 3px var(--pdf-primary-bg);
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  font-family: var(--pdf-font-body);
+  font-size: 0.875rem;
+  background: var(--pdf-surface-2);
+  border: 1.5px solid var(--pdf-border);
+  border-radius: var(--pdf-radius-sm);
+  padding: 0.6rem 0.75rem;
+  color: var(--pdf-text);
+  transition: var(--pdf-transition);
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--pdf-primary);
+  box-shadow: 0 0 0 3px var(--pdf-primary-bg);
+}
+
+textarea {
+  width: 100%;
+  font-family: var(--pdf-font-body);
+  font-size: 0.875rem;
+  background: var(--pdf-surface-2);
+  border: 1.5px solid var(--pdf-border);
+  border-radius: var(--pdf-radius-sm);
+  padding: 0.75rem;
+  color: var(--pdf-text);
+  transition: var(--pdf-transition);
+  resize: vertical;
+  min-height: 120px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: var(--pdf-primary);
+  box-shadow: 0 0 0 3px var(--pdf-primary-bg);
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pdf-text-3);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* File Meta */
+.file-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  background: var(--pdf-surface-3);
+  border-radius: var(--pdf-radius-sm);
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  font-size: 0.75rem;
+}
+
+.file-meta div {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-meta strong {
+  color: var(--pdf-text-2);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.file-meta span {
+  font-family: var(--pdf-font-mono);
+  word-break: break-all;
+}
+
+/* Preview Frame */
+.preview-wrap {
+  margin-top: 1rem;
+  border: 1px solid var(--pdf-border);
+  border-radius: var(--pdf-radius);
+  overflow: hidden;
+  background: var(--pdf-surface-2);
+}
+
+iframe {
+  width: 100%;
+  min-height: 420px;
+  border: 0;
+}
+
+/* ---------- BUTTONS ---------- */
+.inline-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--pdf-radius-sm);
+  font-family: var(--pdf-font-body);
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: var(--pdf-transition);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--pdf-primary), var(--pdf-primary-dark));
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--pdf-shadow);
+}
+
+.btn-secondary {
+  background: var(--pdf-surface-3);
+  color: var(--pdf-text-2);
+  border: 1px solid var(--pdf-border);
+}
+
+.btn-secondary:hover {
+  background: var(--pdf-surface);
+  color: var(--pdf-text);
+  transform: translateY(-2px);
+}
+
+/* ---------- RESULT DISPLAY ---------- */
+.result {
+  background: var(--pdf-surface-2);
+  border-radius: var(--pdf-radius);
+  padding: 0.75rem;
+  font-family: var(--pdf-font-mono);
+  font-size: 0.75rem;
+  border: 1px solid var(--pdf-border);
+  margin-top: 0.5rem;
+  word-break: break-word;
+}
+
+.pdf-hint {
+  font-size: 0.78rem;
+  color: var(--pdf-text-3);
+  line-height: 1.45;
+  margin-bottom: 0.6rem;
+}
+
+.pdf-msg-error {
+  border-color: #ef4444 !important;
+  background: #fef2f2 !important;
+  color: #b91c1c !important;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.prompt-chip {
+  background: var(--pdf-surface-3);
+  border: 1px solid var(--pdf-border);
+  border-radius: 100px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  font-family: var(--pdf-font-mono);
+  cursor: pointer;
+  transition: var(--pdf-transition);
+}
+
+.prompt-chip:hover {
+  background: var(--pdf-primary-bg);
+  border-color: var(--pdf-primary);
+  color: var(--pdf-primary);
+}
+
+.empty-hint {
+  color: var(--pdf-text-3);
+  font-style: italic;
+  padding: 0.6rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+/* ---------- AD SLOTS ---------- */
+.ad-slot {
+  background: linear-gradient(135deg, var(--pdf-surface-3), var(--pdf-surface));
+  border: 2px dashed var(--pdf-border-strong);
+  border-radius: var(--pdf-radius);
+  padding: 2rem;
+  text-align: center;
+  color: var(--pdf-text-3);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+/* ---------- FAQ SECTION ---------- */
+.faq-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--pdf-border);
+}
+
+.faq-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  background: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: var(--pdf-radius-sm);
+  overflow: hidden;
+  transition: var(--pdf-transition);
+}
+
+.faq-item[open] {
+  border-color: var(--pdf-primary);
+}
+
+.faq-item summary {
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  color: var(--pdf-text-3);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+  color: var(--pdf-primary);
+}
+
+.faq-item p {
+  padding: 0 1.25rem 1rem;
+  color: var(--pdf-text-2);
+  line-height: 1.6;
+}
+
+/* ---------- FOOTER ---------- */
+.site-footer {
+  background: var(--pdf-surface);
+  border-top: 1px solid var(--pdf-border);
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--pdf-text-3);
+}
+
+.footer-grid a {
+  color: var(--pdf-primary);
+  text-decoration: none;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .tool-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+.pdf-focus-host.active {
+    padding: 0.5rem;
+  }
+  
+  .pdf-card.is-focused {
+    width: 95vw;
+    padding: 1rem;
+  }
+  
+  .file-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .inline-row {
+    flex-direction: column;
+  }
+  
+  .tool-nav-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  iframe {
+    min-height: 300px;
+  }
+}
+
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--pdf-surface-3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pdf-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pdf-primary-dark);
+}

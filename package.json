@@ -1,0 +1,21 @@
+{
+  "name": "qwickton",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy-first browser tools platform.",
+  "scripts": {
+    "serve": "http-server . -p 4173 -c-1",
+    "lint": "eslint js/**/*.js sw.js",
+    "lint:fix": "eslint js/**/*.js sw.js --fix",
+    "format": "prettier --write \"**/*.{html,css,js,json,md,yml,yaml,mjs}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md,yml,yaml,mjs}\"",
+    "test": "node --test tests/**/*.test.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.8.2"
+  }
+}

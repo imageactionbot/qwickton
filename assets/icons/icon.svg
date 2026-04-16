@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Qwickton icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="154" fill="#ffffff" opacity="0.12" />
+  <path
+    d="M252 102c-83.6 0-151.3 67.7-151.3 151.3S168.4 404.7 252 404.7c36.5 0 69.9-12.9 95.9-34.4l53.7 53.8c8.2 8.2 21.4 8.2 29.6 0s8.2-21.5 0-29.7L377.4 341c16.2-24.9 25.6-54.7 25.6-86.7C403 169.7 335.3 102 252 102Zm0 42c60.3 0 109.3 49 109.3 109.3S312.3 362.7 252 362.7s-109.3-49-109.3-109.4S191.7 144 252 144Z"
+    fill="#ffffff"
+  />
+</svg>

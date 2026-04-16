@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Text Tools Pro - 12 Advanced Text Utilities | Qwickton</title>
+  <meta name="description" content="Production-grade text tools: word counter, case converter, text cleaner, compare, readability, dedupe/sort lines, slugify, lorem generator, regex tester, JSON formatter, and history export. Browser-only and privacy-first." />
+  <meta name="keywords" content="text tools, word counter, case converter, text compare, readability, regex tester, json formatter, slugify, dedupe lines, sort lines, Qwickton" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/text-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark" aria-hidden="true">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="page-main container" id="main-content" data-category-page="text-tools">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" id="categoryCrumb">Text Tools</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="categoryTitle">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free · Browser-Only · Privacy First</span>
+      </div>
+      <h1 id="categoryTitle">Text <span class="gradient-text">Tools Suite</span></h1>
+      <p id="categoryDescription" class="hero-description">
+        Production-ready text workspace with 12 practical tools for writers, editors, marketers,
+        and developers: clean, compare, transform, validate, and export text instantly.
+      </p>
+      <div class="trust-bar" role="list" aria-label="Key features">
+        <span role="listitem">✓ 100% Free</span>
+        <span role="listitem">✓ Works Offline</span>
+        <span role="listitem">✓ No Data Sent</span>
+        <span role="listitem">✓ 12 Working Tools</span>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <nav class="tool-nav" aria-label="Jump to tool">
+      <button type="button" class="tool-nav-btn active" data-target="word">📊 Count</button>
+      <button type="button" class="tool-nav-btn" data-target="case">🔤 Case</button>
+      <button type="button" class="tool-nav-btn" data-target="cleaner">🧹 Clean</button>
+      <button type="button" class="tool-nav-btn" data-target="compare">⚖️ Compare</button>
+      <button type="button" class="tool-nav-btn" data-target="readability">📖 Read</button>
+      <button type="button" class="tool-nav-btn" data-target="regex">🧪 Regex</button>
+      <button type="button" class="tool-nav-btn" data-target="jsonfmt">🧩 JSON</button>
+      <button type="button" class="tool-nav-btn" data-target="history">📜 History</button>
+    </nav>
+
+    <!-- Ad Top -->
+    <div class="ad-slot top-banner" aria-label="Advertisement">
+      <p>📢 Ad Placement: Top Banner</p>
+    </div>
+
+    <!-- Tool Grid (JS injects cards here) -->
+    <div class="tool-grid" id="categoryToolGrid" aria-label="Text tools"></div>
+
+    <!-- Ad Mid -->
+    <div class="ad-slot" style="margin-top:1.5rem" aria-label="Advertisement">
+      <p>📢 Ad Placement: Between Tools</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How does the word counter work?</summary>
+          <p>Counts words, characters (with/without spaces), sentences, paragraphs, unique words, and estimates reading time.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What case conversions are supported?</summary>
+          <p>UPPERCASE, lowercase, Title Case, Sentence case, and InVeRt case (alternating).</p>
+        </details>
+        <details class="faq-item">
+          <summary>What text cleaning features are available?</summary>
+          <p>Remove extra spaces, join/normalize lines, slugify text, sort lines, dedupe lines, plus advanced tools like regex testing and JSON formatting.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does text comparison work?</summary>
+          <p>Compares two texts for similarity percentage, word overlap, and finds the first difference.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Free Text Tools</p>
+      <p>
+        <a href="../index.html">Back to Dashboard</a> ·
+        <a href="daily-tools.html">Daily Tools</a> ·
+        <a href="developer-tools.html">Developer Tools</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS (Correct order for category bootstrap system) ═══ -->
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/text-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

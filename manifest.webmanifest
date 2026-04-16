@@ -1,0 +1,20 @@
+{
+  "name": "Qwickton",
+  "short_name": "Qwickton",
+  "description": "Smart tools that run 100% in-browser with zero uploads.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f7f8fc",
+  "theme_color": "#2563eb",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./assets/icons/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

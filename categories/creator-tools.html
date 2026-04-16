@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Creator Tools Pro - YouTube, TikTok, Instagram, Global Posting Planner | Qwickton</title>
+  <meta name="description" content="Professional creator tools: YouTube titles, TikTok hooks, Instagram captions, LinkedIn posts, hashtag builder, script writer, global posting time planner, sponsor rate calculator, and more." />
+  <meta name="keywords" content="creator tools, youtube title generator, tiktok hooks, instagram captions, linkedin posts, hashtag generator, content calendar, global posting planner, sponsor rate calculator" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/creator-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main container" id="main-content" data-category-page="creator-tools">
+    <nav class="breadcrumb-nav">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li aria-current="page">Creator Tools</li>
+      </ol>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Free · 11+ Creator Tools · Global-Ready</span></div>
+      <h1 id="categoryTitle">Creator <span class="gradient-text">Tools Suite</span></h1>
+      <p class="hero-description">
+        Professional content creation tools for YouTube, TikTok, Instagram, LinkedIn, and more.
+        Generate titles, hooks, captions, hashtags, scripts, global posting schedules, and sponsor rates.
+        All processing stays local in your browser.
+      </p>
+      <div class="trust-bar"><span>✓ 100% Free</span><span>✓ No Upload</span><span>✓ Privacy First</span><span>✓ 15+ Tools</span></div>
+    </section>
+
+    <nav class="tool-nav">
+      <button class="tool-nav-btn active" type="button" data-target="youtube">🎬 YouTube</button>
+      <button class="tool-nav-btn" type="button" data-target="tiktok">📱 TikTok</button>
+      <button class="tool-nav-btn" type="button" data-target="instagram">📸 Instagram</button>
+      <button class="tool-nav-btn" type="button" data-target="linkedin">💼 LinkedIn</button>
+      <button class="tool-nav-btn" type="button" data-target="hooks">⚡ Hooks</button>
+      <button class="tool-nav-btn" type="button" data-target="hashtag">#️⃣ Hashtags</button>
+      <button class="tool-nav-btn" type="button" data-target="script">📝 Script Writer</button>
+      <button class="tool-nav-btn" type="button" data-target="calendar">📅 Calendar</button>
+      <button class="tool-nav-btn" type="button" data-target="analytics">📊 Analytics</button>
+      <button class="tool-nav-btn" type="button" data-target="posttime">🌍 Post Time</button>
+      <button class="tool-nav-btn" type="button" data-target="sponsor">💸 Sponsor Rate</button>
+    </nav>
+
+    <div class="ad-slot"><p>📢 Ad Placement: Top Banner</p></div>
+    <div class="tool-grid" id="categoryToolGrid"></div>
+    <div class="ad-slot"><p>📢 Ad Placement: Between Tools</p></div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What platforms are supported?</summary><p>YouTube, TikTok, Instagram, LinkedIn, Twitter, and general content creation.</p></details>
+        <details class="faq-item"><summary>Are the hashtags platform-optimized?</summary><p>Yes! Generate hashtags specifically for TikTok, Instagram, LinkedIn, or general use.</p></details>
+        <details class="faq-item"><summary>Is my content saved anywhere?</summary><p>No! All processing happens locally. Your content never leaves your browser.</p></details>
+        <details class="faq-item"><summary>Can global creators use this?</summary><p>Yes. Global Posting Time Planner and locale-aware Sponsor Rate Calculator support international workflows.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Creator Tools Suite</p>
+      <p><a href="../index.html">Back to Dashboard</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/creator-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

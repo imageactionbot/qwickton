@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Productivity Tools - Task Planner, Pomodoro, Timezone Planner, Deadline Estimator | Qwickton</title>
+  <meta name="description" content="Advanced productivity tools: task planner, pomodoro timer, quick notes, global meeting timezone planner, and deadline estimator. Browser-based and privacy-first." />
+  <meta name="keywords" content="productivity tools, task planner, pomodoro timer, notes app, meeting agenda, timezone planner, deadline calculator, Qwickton" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/productivity-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark" aria-hidden="true">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="page-main container" id="main-content" data-category-page="productivity-tools">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" id="categoryCrumb">Productivity Tools</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="categoryTitle">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free · 11+ Tools · Global-Ready</span>
+      </div>
+      <h1 id="categoryTitle">Productivity <span class="gradient-text">Tools Suite</span></h1>
+      <p id="categoryDescription" class="hero-description">
+        Professional productivity tools: task planner with priority levels, Pomodoro timer,
+        quick notes with autosave, global timezone meeting planner, and deadline estimation.
+        Boost your workflow across countries and teams.
+      </p>
+      <div class="trust-bar" role="list" aria-label="Key features">
+        <span role="listitem">✓ 100% Free</span>
+        <span role="listitem">✓ Works Offline</span>
+        <span role="listitem">✓ No Signup</span>
+        <span role="listitem">✓ Local Storage</span>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <nav class="tool-nav" aria-label="Jump to tool">
+      <button class="tool-nav-btn active" type="button" data-target="todo">✅ Task Planner</button>
+      <button class="tool-nav-btn" type="button" data-target="pomo">🍅 Pomodoro Timer</button>
+      <button class="tool-nav-btn" type="button" data-target="notes">📝 Quick Notes</button>
+      <button class="tool-nav-btn" type="button" data-target="agenda">📋 Meeting Agenda</button>
+      <button class="tool-nav-btn" type="button" data-target="timezone">🌐 Timezone Planner</button>
+      <button class="tool-nav-btn" type="button" data-target="deadline">📆 Deadline Planner</button>
+    </nav>
+
+    <!-- Ad Top -->
+    <div class="ad-slot top-banner" aria-label="Advertisement">
+      <p>📢 Ad Placement: Top Banner</p>
+    </div>
+
+    <!-- Tool Grid (JS injects cards here) -->
+    <div class="tool-grid" id="categoryToolGrid" aria-label="Productivity tools"></div>
+
+    <!-- Ad Mid -->
+    <div class="ad-slot" style="margin-top:1.5rem" aria-label="Advertisement">
+      <p>📢 Ad Placement: Between Tools</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Does the task planner save my tasks?</summary>
+          <p>Yes! Tasks are saved locally in your browser and persist across sessions.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does the Pomodoro timer work?</summary>
+          <p>Work for 25 minutes (default), then take a 5-minute break. Each completed focus session is counted.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are my notes saved automatically?</summary>
+          <p>Yes! Notes are autosaved as you type and restored when you return.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I customize the meeting agenda?</summary>
+          <p>Yes! Enter your own agenda topics and duration to generate a structured meeting plan.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Does this support international teams?</summary>
+          <p>Yes. Timezone and date outputs support multiple locales and are suitable for global planning.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Free Productivity Tools</p>
+      <p>
+        <a href="../index.html">Back to Dashboard</a> ·
+        <a href="daily-tools.html">Daily Tools</a> ·
+        <a href="personal-tools.html">Personal Tools</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS (Correct order for category bootstrap system) ═══ -->
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/productivity-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

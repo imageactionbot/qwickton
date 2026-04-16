@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block common duplicate-content query endpoints
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
+Disallow: /*?*gclid=
+
+Sitemap: https://qwickton.com/sitemap.xml

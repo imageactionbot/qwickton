@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Design Tools - 13 Advanced UI Utilities | Palette, Gradient, CSS, Contrast | Qwickton</title>
+  <meta name="description" content="Production-ready design toolkit with 13 utilities: color palette, gradient, CSS snippets, typography scale, shadow, border radius, animation keyframes, icon finder, contrast checker, spacing scale, clamp builder and emoji favicon." />
+  <meta name="keywords" content="design tools, color palette generator, gradient css generator, typography scale, box shadow, border radius, contrast checker, spacing scale, css clamp builder, favicon generator" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/design-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main container" id="main-content" data-category-page="design-tools">
+    <nav class="breadcrumb-nav">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li aria-current="page">Design Tools</li>
+      </ol>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Free · 13 Tools · Browser-Only</span></div>
+      <h1 id="categoryTitle">Design <span class="gradient-text">Tools Suite</span></h1>
+      <p class="hero-description">
+        Production-grade design tools for UI/UX teams: palette, gradients, CSS snippets, typography,
+        shadows, border radius, keyframes, icon search, contrast checks, spacing, clamp values and favicon assets.
+      </p>
+      <div class="trust-bar"><span>✓ 100% Free</span><span>✓ No Signup</span><span>✓ Instant CSS</span><span>✓ Live Preview</span></div>
+    </section>
+
+    <nav class="tool-nav">
+      <button class="tool-nav-btn active" type="button" data-target="color">🎨 Color</button>
+      <button class="tool-nav-btn" type="button" data-target="gradient">🌈 Gradient</button>
+      <button class="tool-nav-btn" type="button" data-target="css">💻 CSS</button>
+      <button class="tool-nav-btn" type="button" data-target="typography">📝 Typography</button>
+      <button class="tool-nav-btn" type="button" data-target="shadow">✨ Shadow</button>
+      <button class="tool-nav-btn" type="button" data-target="border">🟦 Border</button>
+      <button class="tool-nav-btn" type="button" data-target="animation">🎬 Animation</button>
+      <button class="tool-nav-btn" type="button" data-target="icon">🔍 Icon</button>
+      <button class="tool-nav-btn" type="button" data-target="contrast">👁️ Contrast</button>
+      <button class="tool-nav-btn" type="button" data-target="spacing">📐 Spacing</button>
+      <button class="tool-nav-btn" type="button" data-target="clamp">📏 Clamp</button>
+      <button class="tool-nav-btn" type="button" data-target="favicon">🧩 Favicon</button>
+    </nav>
+
+    <div class="ad-slot"><p>📢 Ad Placement: Top Banner</p></div>
+    <div class="tool-grid" id="categoryToolGrid"></div>
+    <div class="ad-slot"><p>📢 Ad Placement: Between Tools</p></div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What design tools are available?</summary><p>You get 13 utilities including color, gradient, CSS, typography, shadow, border, animation, icon search, contrast, spacing, clamp and favicon generator.</p></details>
+        <details class="faq-item"><summary>Can I export generated output?</summary><p>Yes. Every tool supports copy and TXT export, and favicon tool supports PNG asset download.</p></details>
+        <details class="faq-item"><summary>Is my data saved anywhere?</summary><p>Your recent design outputs stay in local browser storage only. No server upload is required.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Design Tools Suite</p>
+      <p><a href="../index.html">Back to Dashboard</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/design-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

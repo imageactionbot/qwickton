@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Data Tools - Global Data Utilities | JSON, CSV, SQL, JWT, Regional Formats | Qwickton</title>
+  <meta name="description" content="Production-ready global data tools for all countries: JSON, CSV, XML, YAML, SQL, Base64, JWT, SHA-256, diff, inspector, dedupe and regional date/number/delimiter formatting helper." />
+  <meta name="keywords" content="data tools, global csv converter, json formatter, yaml to json, sql formatter, jwt decoder, sha256, csv dedupe, regional formatting, locale data tools" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/data-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main container" id="main-content" data-category-page="data-tools">
+    <nav class="breadcrumb-nav">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li aria-current="page">Data Tools</li>
+      </ol>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Free · 12 Tools · Global-Ready</span></div>
+      <h1 id="categoryTitle">Data <span class="gradient-text">Tools Suite</span></h1>
+      <p class="hero-description">
+        Professional global data manipulation toolkit with locale-aware options for countries worldwide:
+        JSON, CSV, XML, YAML, SQL, JWT, hashing, diff, dedupe and regional format conversion.
+      </p>
+      <div class="trust-bar"><span>✓ 100% Free</span><span>✓ No Upload</span><span>✓ Privacy First</span><span>✓ Country/Locale Aware</span></div>
+    </section>
+
+    <nav class="tool-nav">
+      <button class="tool-nav-btn active" type="button" data-target="json">📋 JSON</button>
+      <button class="tool-nav-btn" type="button" data-target="csv">📊 CSV</button>
+      <button class="tool-nav-btn" type="button" data-target="xml">📄 XML</button>
+      <button class="tool-nav-btn" type="button" data-target="yaml">📝 YAML</button>
+      <button class="tool-nav-btn" type="button" data-target="sql">🗄️ SQL</button>
+      <button class="tool-nav-btn" type="button" data-target="base64">📦 Base64</button>
+      <button class="tool-nav-btn" type="button" data-target="jwt">🔑 JWT</button>
+      <button class="tool-nav-btn" type="button" data-target="hash">🔒 Hash</button>
+      <button class="tool-nav-btn" type="button" data-target="diff">≠ Text Diff</button>
+      <button class="tool-nav-btn" type="button" data-target="inspect">🔍 Inspector</button>
+      <button class="tool-nav-btn" type="button" data-target="regional">🌍 Regional</button>
+    </nav>
+
+    <div class="ad-slot"><p>📢 Ad Placement: Top Banner</p></div>
+    <div class="tool-grid" id="categoryToolGrid"></div>
+    <div class="ad-slot"><p>📢 Ad Placement: Between Tools</p></div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What formats and operations are supported?</summary><p>JSON, CSV, XML, YAML, SQL formatting, Base64, JWT decode, SHA-256 hashing, diff checks, JSON inspection, CSV dedupe, and regional format conversion.</p></details>
+        <details class="faq-item"><summary>Does this work for different countries?</summary><p>Yes. Regional Format Helper supports multiple locale presets for date, number and CSV delimiter style, helpful for global teams.</p></details>
+        <details class="faq-item"><summary>Is my data uploaded anywhere?</summary><p>No. All processing happens locally in-browser for privacy and speed.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Data Tools Suite</p>
+      <p><a href="../index.html">Back to Dashboard</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/data-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

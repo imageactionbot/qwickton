@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Developer Tools Pro - JSON, JWT, cURL, Base64, Timestamp, UUID, Hash, Regex | Qwickton</title>
+  <meta name="description" content="Professional developer tools: JSON formatter, JWT decoder, cURL builder, Base64, locale-aware timestamp converter, hash generator, regex tester, text diff, QR code, password and UUID/token generator." />
+  <meta name="keywords" content="developer tools, json formatter, jwt decoder, curl builder, base64 encoder, timestamp converter, uuid generator, hash generator, regex tester, text diff, qr code generator, password generator" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/developer-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main container" id="main-content" data-category-page="developer-tools">
+    <nav class="breadcrumb-nav">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li aria-current="page">Developer Tools</li>
+      </ol>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Free · 15+ Tools · Global-Ready</span></div>
+      <h1 id="categoryTitle">Developer <span class="gradient-text">Tools Suite</span></h1>
+      <p class="hero-description">
+        Professional developer tools: JSON, JWT, cURL, Base64, Timestamp, Hash, Regex, Text Diff, QR Code,
+        Password Generator, HTML/CSS/JS Minifier, Color Picker, User Agent Parser, UUID generator, and more.
+      </p>
+      <div class="trust-bar"><span>✓ 100% Free</span><span>✓ No Upload</span><span>✓ Privacy First</span><span>✓ 15+ Tools</span></div>
+    </section>
+
+    <nav class="tool-nav">
+      <button class="tool-nav-btn active" type="button" data-target="json">📋 JSON</button>
+      <button class="tool-nav-btn" type="button" data-target="jwt">🔑 JWT</button>
+      <button class="tool-nav-btn" type="button" data-target="curl">📡 cURL</button>
+      <button class="tool-nav-btn" type="button" data-target="base64">📦 Base64</button>
+      <button class="tool-nav-btn" type="button" data-target="timestamp">⏰ Timestamp</button>
+      <button class="tool-nav-btn" type="button" data-target="hash">🔒 Hash</button>
+      <button class="tool-nav-btn" type="button" data-target="regex">📝 Regex</button>
+      <button class="tool-nav-btn" type="button" data-target="diff">≠ Diff</button>
+      <button class="tool-nav-btn" type="button" data-target="qr">📱 QR Code</button>
+      <button class="tool-nav-btn" type="button" data-target="password">🔐 Password</button>
+      <button class="tool-nav-btn" type="button" data-target="minifier">📦 Minifier</button>
+      <button class="tool-nav-btn" type="button" data-target="color">🎨 Color</button>
+      <button class="tool-nav-btn" type="button" data-target="useragent">🖥️ User Agent</button>
+      <button class="tool-nav-btn" type="button" data-target="uuid">🧬 UUID</button>
+    </nav>
+
+    <div class="ad-slot"><p>📢 Ad Placement: Top Banner</p></div>
+    <div class="tool-grid" id="categoryToolGrid"></div>
+    <div class="ad-slot"><p>📢 Ad Placement: Between Tools</p></div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What developer tools are available?</summary><p>JSON formatter, JWT decoder, cURL builder, Base64 encoder/decoder, timestamp converter, hash generator, regex tester, text diff, QR code generator, password generator, HTML/CSS/JS minifier, color picker, user agent parser.</p></details>
+        <details class="faq-item"><summary>Is my data uploaded anywhere?</summary><p>No! All processing happens locally. Your data never leaves your browser.</p></details>
+        <details class="faq-item"><summary>Can I download results?</summary><p>Yes! Most tools support TXT download.</p></details>
+        <details class="faq-item"><summary>Is it usable across countries and timezones?</summary><p>Yes. Timestamp converter includes locale and timezone-aware formatting for global teams.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Developer Tools Suite</p>
+      <p><a href="../index.html">Back to Dashboard</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/developer-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

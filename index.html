@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qwickton - 100+ Free Online Tools for Image, PDF, SEO, Dev & Study</title>
+    <meta
+      name="description"
+      content="Qwickton offers 100+ free browser tools for image editing, passport photos, PDF, text, SEO, developer workflows, study, and business. Private, fast, and built for global users."
+    />
+    <meta
+      name="keywords"
+      content="online tools, browser tools, free tools, image tools, passport photo maker, PDF tools, text tools, SEO tools, developer tools, study tools, global web tools"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="Avinash Chauhan" />
+    <meta name="publisher" content="Avinash Chauhan" />
+    <link rel="me" href="mailto:finedge360official@gmail.com" />
+    <meta name="application-name" content="Qwickton" />
+    <meta name="google-adsense-account" content="ca-pub-5368355682383000" />
+    <meta name="google-analytics-id" content="" />
+    <meta property="og:title" content="Qwickton - 100+ Free Browser Tools for Global Users" />
+    <meta
+      property="og:description"
+      content="Image, PDF, text, SEO, developer, study, and business tools in one place. No upload, no signup, privacy-first."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qwickton.com/" />
+    <meta property="og:site_name" content="Qwickton" />
+    <meta property="og:image" content="https://qwickton.com/assets/icons/icon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Qwickton - 100+ Free Browser Tools for Global Users" />
+    <meta
+      name="twitter:description"
+      content="Fast private tools for image, PDF, text, SEO, dev, study, and business workflows."
+    />
+    <meta name="twitter:image" content="https://qwickton.com/assets/icons/icon.svg" />
+    <link rel="canonical" href="https://qwickton.com/" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg" />
+    <link rel="apple-touch-icon" href="assets/icons/icon.svg" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
+    <link rel="stylesheet" href="./css/styles.css" id="qw-site-styles" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368355682383000"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="home-page">
+    <div class="ambient-bg" aria-hidden="true">
+      <div class="ambient-orb orb-1"></div>
+      <div class="ambient-orb orb-2"></div>
+      <div class="ambient-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="mobile-overlay" id="mobileOverlay" data-drawer-close></div>
+    <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile navigation">
+      <div class="mobile-drawer-header">
+        <a class="logo" href="index.html" aria-label="Qwickton homepage">
+          <span class="logo-mark">Q</span>
+          <span>Qwickton</span>
+        </a>
+        <button class="btn btn-ghost icon-btn" id="closeDrawer" aria-label="Close menu">X</button>
+      </div>
+      <div class="drawer-canvas-wrap">
+        <canvas id="drawerCanvas" width="280" height="80"></canvas>
+      </div>
+      <p class="drawer-section-title">Quick Access</p>
+      <div class="mobile-drawer-links drawer-primary-links">
+        <a href="index.html">Home</a>
+        <a href="categories/daily-tools.html">Daily Tools</a>
+        <a href="categories/image-tools.html">Image Tools</a>
+        <a href="categories/passport-photo-maker.html">Passport Photo</a>
+      </div>
+      <div class="drawer-search-wrap">
+        <span class="header-search-icon" aria-hidden="true">⌕</span>
+        <input id="headerSearch" type="search" placeholder="Search tools..." autocomplete="off" />
+      </div>
+      <div class="drawer-quick-actions">
+        <button class="btn btn-ghost drawer-quick-btn" type="button" data-open-launcher="true">Quick Launcher</button>
+        <button id="drawerThemeToggle" class="btn btn-ghost drawer-quick-btn" type="button">Toggle Theme</button>
+      </div>
+      <p class="drawer-section-title">Categories</p>
+      <div id="drawerCategoriesList" class="mobile-drawer-links"></div>
+    </nav>
+
+    <header class="site-header" role="banner">
+      <div class="container nav-wrap">
+        <a class="logo" href="index.html" aria-label="Qwickton Home">
+          <span class="logo-mark" aria-hidden="true">Q</span>
+          <span>Qwickton</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" aria-label="Hero section">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              <span>Private by Design · No Upload · Instant Results</span>
+            </div>
+            <h1 class="hero-title">
+              <span class="title-line">Private Browser Tools.</span>
+              <span class="title-line">Fast Results.</span>
+              <span class="title-line accent-text">No Data Upload.</span>
+            </h1>
+            <p class="hero-copy">
+              Use category-focused tools in seconds for image, PDF, text, SEO, dev, business, and study workflows.
+              No account, no installation, and privacy-first processing in your browser for users across countries.
+            </p>
+            <div class="search-row">
+              <div class="search-box">
+                <span class="search-icon" aria-hidden="true">⌕</span>
+                <label for="toolSearch" class="sr-only">Find a tool</label>
+                <input id="toolSearch" type="search" placeholder="Search tools: passport, JSON, image..." autocomplete="off" />
+                <kbd class="search-hint">Ctrl+K</kbd>
+              </div>
+            </div>
+            <p class="privacy-badge">
+              <span>🔒</span>
+              Your files stay on your device. Processing happens in-browser.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-open-launcher="true"><span>⚡</span> Quick Launcher</button>
+              <button class="btn btn-outline" type="button" id="runFocusMode"><span>🎯</span> Focus Mode</button>
+            </div>
+          </div>
+          <aside class="hero-visual" aria-label="Visual platform preview">
+            <div class="hero-canvas-frame">
+              <div class="canvas-header">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="canvas-title-label">Live Performance Preview</span>
+              </div>
+              <canvas id="heroCanvas" width="560" height="310"></canvas>
+            </div>
+            <div class="hero-stats-row">
+              <div class="hero-stat">
+                <strong id="heroStatTools">0</strong>
+                <span>Active Tools</span>
+              </div>
+              <div class="hero-stat-divider"></div>
+              <div class="hero-stat">
+                <strong>0ms</strong>
+                <span>Typical Delay</span>
+              </div>
+              <div class="hero-stat-divider"></div>
+              <div class="hero-stat">
+                <strong>100%</strong>
+                <span>Private Processing</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="container kpi-strip" aria-label="Platform stats">
+        <div class="kpi-card">
+          <div class="kpi-icon">📂</div>
+          <div>
+            <strong id="kpiCategories" class="kpi-num">0</strong>
+            <p>Categories</p>
+          </div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-icon">🛠️</div>
+          <div>
+            <strong id="kpiTools" class="kpi-num">0</strong>
+            <p>Tools Listed</p>
+          </div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-icon">🔒</div>
+          <div>
+            <strong class="kpi-num">0</strong>
+            <p>Data Uploaded</p>
+          </div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-icon">⚡</div>
+          <div>
+            <strong class="kpi-num">0ms</strong>
+            <p>Avg Response</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section-block smart-panel">
+        <div class="section-head">
+          <div>
+            <h2>Smart Workspace</h2>
+            <p class="muted">Useful helpers for fast execution and repeat workflows.</p>
+          </div>
+          <span class="section-badge">Local Only</span>
+        </div>
+        <div class="smart-panel-grid">
+          <article class="panel focus-card">
+            <h3>Deep Work Timer</h3>
+            <p class="small">Stay focused while running tools.</p>
+            <div class="inline-row">
+              <input id="focusMinutes" type="number" min="5" max="120" value="25" aria-label="Focus minutes" />
+              <button id="startFocusTimer" class="btn btn-primary" type="button">Start</button>
+            </div>
+            <div class="inline-row">
+              <button id="pauseFocusTimer" class="btn btn-outline" type="button">Pause</button>
+              <button id="resetFocusTimer" class="btn btn-outline" type="button">Reset</button>
+            </div>
+            <div id="focusTimerDisplay" class="timer-display">25:00</div>
+            <canvas id="focusCanvas" width="400" height="100" aria-hidden="true"></canvas>
+          </article>
+          <article class="panel">
+            <h3>AI Task Assistant</h3>
+            <label for="aiTaskInput" class="field-label">What do you want to do?</label>
+            <textarea id="aiTaskInput" placeholder="Example: Resize image then compress for WhatsApp."></textarea>
+            <div class="inline-row" style="margin-top: 0.65rem">
+              <button class="btn btn-primary" id="analyzeTaskBtn" type="button">Analyze Task</button>
+              <button class="btn btn-outline" id="launchSuggestedToolBtn" type="button">Launch Tool</button>
+            </div>
+            <div id="aiTaskOutput" class="result ai-result">
+              <span class="ai-ready-dot"></span> Assistant ready. Describe your task.
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section-block" aria-label="Tool categories">
+        <div class="categories-head section-head">
+          <div>
+            <h2>Explore Categories</h2>
+            <p class="muted">Choose a category to jump directly into tools.</p>
+          </div>
+          <div class="categories-toolbar" role="toolbar" aria-label="Filter and view categories">
+            <div class="category-filter-field">
+              <label for="categoryFilter" class="sr-only">Filter categories</label>
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input
+                id="categoryFilter"
+                type="search"
+                placeholder="Filter categories..."
+                autocomplete="off"
+                enterkeyhint="search"
+              />
+            </div>
+            <div class="view-toggle" role="group" aria-label="View toggle">
+              <button class="view-btn active" data-view="grid" type="button" title="Grid view">▦</button>
+              <button class="view-btn" data-view="list" type="button" title="List view">☰</button>
+            </div>
+          </div>
+        </div>
+        <div id="categoryGrid" class="category-grid"></div>
+        <p id="noResults" class="no-results" style="display: none">No categories match your search.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="logo" href="index.html">
+            <span class="logo-mark">Q</span>
+            <span>Qwickton</span>
+          </a>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="categories/daily-tools.html">Daily Tools</a>
+          <a href="categories/image-tools.html">Image Tools</a>
+          <a href="categories/passport-photo-maker.html">Passport Photo</a>
+          <a href="categories/text-tools.html">Text Tools</a>
+          <a href="categories/developer-tools.html">Dev Tools</a>
+        </nav>
+        <p class="footer-copy">© <span id="year"></span> Qwickton. Privacy-first browser tools.</p>
+      </div>
+    </footer>
+
+    <div class="quick-launcher" id="quickLauncher" aria-hidden="true">
+      <div class="quick-launcher-backdrop" data-launcher-close></div>
+      <div class="quick-launcher-dialog panel" role="dialog" aria-modal="true" aria-label="Quick launcher">
+        <div class="quick-launcher-head">
+          <div class="launcher-title">
+            <span class="launcher-icon">⚡</span>
+            <strong>Quick Launcher</strong>
+          </div>
+          <button class="btn btn-ghost icon-btn" type="button" data-launcher-close aria-label="Close">X</button>
+        </div>
+        <div class="launcher-search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="quickLaunchInput" type="search" placeholder="Type category and press Enter..." />
+        </div>
+        <div id="quickLaunchResults" class="quick-launch-results"></div>
+      </div>
+    </div>
+
+    <div id="siteToast" class="site-toast" aria-live="polite" role="status"></div>
+
+    <script src="js/app.js"></script>
+    <script src="js/qwickton-category-tool-counts.js"></script>
+    <script src="js/home-advanced.js"></script>
+  </body>
+</html>

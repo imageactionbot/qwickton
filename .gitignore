@@ -1,0 +1,10 @@
+node_modules/
+npm-debug.log*
+
+# Build and coverage outputs
+coverage/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

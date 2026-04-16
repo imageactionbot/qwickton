@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Study Tools - Flashcards, Planner, Grade Calculator, Timezone Study | Qwickton</title>
+  <meta name="description" content="Advanced study tools: flashcards, study planner, revision timer, exam countdown, glossary builder, global grade calculator, and timezone study scheduler. Browser-based and private." />
+  <meta name="keywords" content="study tools, flashcards, study planner, revision timer, grade calculator, timezone scheduler, exam countdown, learning tools, Qwickton" />
+  <meta name="author" content="Qwickton" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/pages/study-tools.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a class="logo" href="../index.html" aria-label="Qwickton Home">
+        <span class="logo-mark" aria-hidden="true">Q</span>
+        <span>Qwickton</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="page-main container" id="main-content" data-category-page="study-tools">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" id="categoryCrumb">Study Tools</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="categoryTitle">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free · 11+ Tools · Global-Ready</span>
+      </div>
+      <h1 id="categoryTitle">Study <span class="gradient-text">Tools Suite</span></h1>
+      <p id="categoryDescription" class="hero-description">
+        Professional study tools: flashcard system with progress tracking, study session planner,
+        revision sprint timer, global grade calculator, and timezone study scheduler.
+        Perfect for students, teachers, and self-learners worldwide.
+      </p>
+      <div class="trust-bar" role="list" aria-label="Key features">
+        <span role="listitem">✓ 100% Free</span>
+        <span role="listitem">✓ Works Offline</span>
+        <span role="listitem">✓ No Signup</span>
+        <span role="listitem">✓ Local Storage</span>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <nav class="tool-nav" aria-label="Jump to tool">
+      <button class="tool-nav-btn active" type="button" data-target="flashcards">📇 Flashcards</button>
+      <button class="tool-nav-btn" type="button" data-target="planner">📋 Planner</button>
+      <button class="tool-nav-btn" type="button" data-target="revision">⏱️ Timer</button>
+      <button class="tool-nav-btn" type="button" data-target="exam">🎯 Exam</button>
+      <button class="tool-nav-btn" type="button" data-target="wpm">📖 WPM</button>
+      <button class="tool-nav-btn" type="button" data-target="glossary">📚 Glossary</button>
+      <button class="tool-nav-btn" type="button" data-target="cite">📑 Cite</button>
+      <button class="tool-nav-btn" type="button" data-target="streak">🔥 Streak</button>
+      <button class="tool-nav-btn" type="button" data-target="outline">✏️ Outline</button>
+      <button class="tool-nav-btn" type="button" data-target="mne">🧠 Mnemonic</button>
+      <button class="tool-nav-btn" type="button" data-target="grade">🎓 Grade</button>
+      <button class="tool-nav-btn" type="button" data-target="timezone">🌍 Timezone</button>
+    </nav>
+
+    <!-- Ad Top -->
+    <div class="ad-slot top-banner" aria-label="Advertisement">
+      <p>📢 Ad Placement: Top Banner</p>
+    </div>
+
+    <!-- Tool Grid (JS injects cards here) -->
+    <div class="tool-grid" id="categoryToolGrid" aria-label="Study tools"></div>
+
+    <!-- Ad Mid -->
+    <div class="ad-slot" style="margin-top:1.5rem" aria-label="Advertisement">
+      <p>📢 Ad Placement: Between Tools</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Are my flashcards saved?</summary>
+          <p>Yes! All flashcards and progress are saved locally in your browser and persist across sessions.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does the study planner work?</summary>
+          <p>Enter your topic, total study time, and specific tasks. The planner creates a structured study session with deep study and revision phases.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the revision sprint timer?</summary>
+          <p>Set a timer for focused revision sessions. Perfect for Pomodoro-style studying or timed practice tests.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I track my flashcard progress?</summary>
+          <p>Yes! Track how many cards you know vs need revision. Use the "I Knew This" and "Need Revision" buttons to update progress.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this suitable for international students?</summary>
+          <p>Yes. Global Grade Calculator and Timezone Study Scheduler help learners across countries and timezones.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Qwickton — Free Study Tools</p>
+      <p>
+        <a href="../index.html">Back to Dashboard</a> ·
+        <a href="daily-tools.html">Daily Tools</a> ·
+        <a href="productivity-tools.html">Productivity Tools</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS (Correct order for category bootstrap system) ═══ -->
+  <script src="../js/app.js"></script>
+  <script src="../js/category/category-core.js"></script>
+  <script src="../js/category/category-meta.js"></script>
+  <script src="../js/category/pages/study-tools.js"></script>
+  <script src="../js/category/category-bootstrap.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
