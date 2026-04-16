@@ -736,7 +736,7 @@
   }
   
   function writeHistory(items) {
-    try { localStorage.setItem(HISTORY_KEY, JSON.stringify(items.slice(0, 30))); } catch {}
+    try { localStorage.setItem(HISTORY_KEY, JSON.stringify(items.slice(0, 30))); } catch (error) { void error; }
   }
   
   function pushHistory(type, text) {
@@ -888,12 +888,9 @@
       const years = Math.max(1, n(q(card, "#sipYears").value, 1));
       const months = years * 12;
       const monthlyRate = annualReturn / 12 / 100;
-      let futureValue = 0;
-      if (monthlyRate === 0) {
-        futureValue = monthly * months;
-      } else {
-        futureValue = monthly * ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate) * (1 + monthlyRate);
-      }
+      const futureValue = monthlyRate === 0
+        ? monthly * months
+        : monthly * ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate) * (1 + monthlyRate);
       const totalInvested = monthly * months;
       const estimatedReturns = futureValue - totalInvested;
       return {
@@ -1158,11 +1155,13 @@
       const h = hCm / 100;
       if (w <= 0 || h <= 0) return { text: "Please enter valid weight and height", history: null };
       const bmi = w / (h * h);
-      let category = "";
-      if (bmi < 18.5) category = "Underweight";
-      else if (bmi < 25) category = "Normal weight";
-      else if (bmi < 30) category = "Overweight";
-      else category = "Obese";
+      const category = bmi < 18.5
+        ? "Underweight"
+        : bmi < 25
+          ? "Normal weight"
+          : bmi < 30
+            ? "Overweight"
+            : "Obese";
       const minW = 18.5 * h * h;
       const maxW = 24.9 * h * h;
       return {

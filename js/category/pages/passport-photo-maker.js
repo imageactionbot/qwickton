@@ -444,7 +444,7 @@
       if (!lastSheetDataUrl) return;
       const w = window.open("", "_blank", "noopener,noreferrer,width=900,height=700");
       if (!w) return;
-      w.document.write(`<!doctype html><html><head><title>Passport Sheet PDF</title><style>body{margin:0;padding:16px;font-family:system-ui;background:#f3f4f6}img{max-width:100%;height:auto;display:block;margin:0 auto;border:1px solid #ddd;background:#fff}pre{white-space:pre-wrap;font-size:12px;color:#374151}</style></head><body><img src="${lastSheetDataUrl}" alt="Passport sheet"/><pre>${esc(lastPlanText)}</pre><script>setTimeout(()=>window.print(),120);<\/script></body></html>`);
+      w.document.write(`<!doctype html><html><head><title>Passport Sheet PDF</title><style>body{margin:0;padding:16px;font-family:system-ui;background:#f3f4f6}img{max-width:100%;height:auto;display:block;margin:0 auto;border:1px solid #ddd;background:#fff}pre{white-space:pre-wrap;font-size:12px;color:#374151}</style></head><body><img src="${lastSheetDataUrl}" alt="Passport sheet"/><pre>${esc(lastPlanText)}</pre><script>setTimeout(()=>window.print(),120);</script></body></html>`);
       w.document.close();
       pushHistory("PDF", "Opened print dialog for PDF sheet download", renderHistory);
     });

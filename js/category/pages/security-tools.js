@@ -438,9 +438,9 @@
       if (!text) return;
       const a = Math.max(0, Math.min(10, safeNum(maskCard.querySelector("#mskA").value, 2)));
       const b = Math.max(0, Math.min(10, safeNum(maskCard.querySelector("#mskB").value, 2)));
-      let out = "";
-      if (text.length <= a + b) out = "*".repeat(text.length);
-      else out = `${text.slice(0, a)}${"*".repeat(text.length - a - b)}${text.slice(-b)}`;
+      const out = text.length <= a + b
+        ? "*".repeat(text.length)
+        : `${text.slice(0, a)}${"*".repeat(text.length - a - b)}${text.slice(-b)}`;
       maskCard.querySelector("#mskOut").textContent = out;
       pushHistory("Mask", out.slice(0, 30));
     });

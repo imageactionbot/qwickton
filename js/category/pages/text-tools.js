@@ -936,14 +936,19 @@
       const sentenceCount = sentences.length || 1;
       const flesch = 206.835 - 1.015 * (wordCount / sentenceCount) - 84.6 * (syllables / wordCount);
       
-      let level = "";
-      if (flesch >= 90) level = "Very Easy (5th grade)";
-      else if (flesch >= 80) level = "Easy (6th grade)";
-      else if (flesch >= 70) level = "Fairly Easy (7th grade)";
-      else if (flesch >= 60) level = "Standard (8th-9th grade)";
-      else if (flesch >= 50) level = "Fairly Difficult (10th-12th grade)";
-      else if (flesch >= 30) level = "Difficult (College)";
-      else level = "Very Difficult (College graduate)";
+      const level = flesch >= 90
+        ? "Very Easy (5th grade)"
+        : flesch >= 80
+          ? "Easy (6th grade)"
+          : flesch >= 70
+            ? "Fairly Easy (7th grade)"
+            : flesch >= 60
+              ? "Standard (8th-9th grade)"
+              : flesch >= 50
+                ? "Fairly Difficult (10th-12th grade)"
+                : flesch >= 30
+                  ? "Difficult (College)"
+                  : "Very Difficult (College graduate)";
       
       const report = [
         "╔══════════════════════════════════════════════════════════════╗",

@@ -165,7 +165,7 @@
   }
 
   function ensureCategoryHeroShell(ctx) {
-    const { slug, config } = ctx;
+    const { slug } = ctx;
     const main = document.querySelector("main[data-category-page]");
     if (!main) return;
     if (!main.querySelector(".premium-category-shell")) {

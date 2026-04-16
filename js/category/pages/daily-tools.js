@@ -765,11 +765,13 @@
     function fillConvSelects(cat) {
       const from = converterCard.querySelector("#convFrom");
       const to = converterCard.querySelector("#convTo");
-      let opts = [];
-      if (cat === "length") opts = Object.keys(LENGTH);
-      else if (cat === "mass") opts = Object.keys(MASS);
-      else if (cat === "volume") opts = Object.keys(VOL);
-      else opts = ["C", "F", "K"];
+      const opts = cat === "length"
+        ? Object.keys(LENGTH)
+        : cat === "mass"
+          ? Object.keys(MASS)
+          : cat === "volume"
+            ? Object.keys(VOL)
+            : ["C", "F", "K"];
       const html = opts.map((o) => `<option value="${o}">${o}</option>`).join("");
       from.innerHTML = html;
       to.innerHTML = html;
@@ -795,14 +797,13 @@
       }
       const from = converterCard.querySelector("#convFrom").value;
       const to = converterCard.querySelector("#convTo").value;
-      let out = NaN;
-      if (cat === "temp") {
-        out = convertTemp(val, from, to);
-      } else {
-        const table = cat === "length" ? LENGTH : cat === "mass" ? MASS : VOL;
-        const metersOrBase = val * table[from];
-        out = metersOrBase / table[to];
-      }
+      const out = cat === "temp"
+        ? convertTemp(val, from, to)
+        : (() => {
+            const table = cat === "length" ? LENGTH : cat === "mass" ? MASS : VOL;
+            const metersOrBase = val * table[from];
+            return metersOrBase / table[to];
+          })();
       if (!Number.isFinite(out)) {
         converterCard.querySelector("#convRes").textContent = "Conversion failed.";
         return;
@@ -910,29 +911,31 @@
       const p = safeNum(pctCard.querySelector("#pctP").value, NaN);
       const x = safeNum(pctCard.querySelector("#pctX").value, NaN);
       const y = safeNum(pctCard.querySelector("#pctY").value, NaN);
-      let line = "";
-      if (m === "of") {
-        if (!Number.isFinite(p) || !Number.isFinite(x)) {
-          pctCard.querySelector("#pctRes").textContent = "Enter valid P and X.";
-          return;
+      const line = (() => {
+        if (m === "of") {
+          if (!Number.isFinite(p) || !Number.isFinite(x)) {
+            pctCard.querySelector("#pctRes").textContent = "Enter valid P and X.";
+            return "";
+          }
+          return `${p}% of ${x} = ${((p / 100) * x).toFixed(4)}`;
         }
-        line = `${p}% of ${x} = ${((p / 100) * x).toFixed(4)}`;
-      } else if (m === "is") {
-        if (!Number.isFinite(x) || !Number.isFinite(y) || y === 0) {
-          pctCard.querySelector("#pctRes").textContent = "Enter valid X and Y (Y ≠ 0).";
-          return;
+        if (m === "is") {
+          if (!Number.isFinite(x) || !Number.isFinite(y) || y === 0) {
+            pctCard.querySelector("#pctRes").textContent = "Enter valid X and Y (Y ≠ 0).";
+            return "";
+          }
+          return `${x} is ${((x / y) * 100).toFixed(4)}% of ${y}`;
         }
-        line = `${x} is ${((x / y) * 100).toFixed(4)}% of ${y}`;
-      } else {
         const oldV = x;
         const newV = y;
         if (!Number.isFinite(oldV) || !Number.isFinite(newV) || oldV === 0) {
           pctCard.querySelector("#pctRes").textContent = "Use X = old value, Y = new value (old ≠ 0).";
-          return;
+          return "";
         }
         const c = ((newV - oldV) / oldV) * 100;
-        line = `Change ${c.toFixed(4)}% (${oldV} → ${newV})`;
-      }
+        return `Change ${c.toFixed(4)}% (${oldV} → ${newV})`;
+      })();
+      if (!line) return;
       pctCard.querySelector("#pctRes").textContent = line;
       addHistory("Percent", line, renderHistory);
     };
