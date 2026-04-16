@@ -146,6 +146,12 @@
       </div>
       <div><label>Country</label><select id="ppCountry"></select></div>
       <div class="inline-row"><button class="btn btn-primary" id="ppApplyPreset">Apply Preset</button><button class="btn btn-secondary" id="ppCopyPreset">Copy</button><button class="btn btn-secondary" id="ppSavePresetTxt">Download TXT</button></div>
+      <div style="margin-top:.9rem">
+        <label>Live Photo Preview</label>
+        <div class="pp-canvas-wrap" style="padding:.55rem">
+          <canvas id="ppPresetMiniCanvas" width="180" height="240" aria-label="Passport photo mini preview"></canvas>
+        </div>
+      </div>
       <div id="ppPresetResult" class="result">Choose a country and click apply.</div>
     `);
     const regionSel = presetCard.querySelector("#ppRegion");
@@ -203,6 +209,23 @@
       <div class="grid-2"><div><label>Upload</label><input type="file" id="ppUploadFile" accept="image/jpeg,image/png,image/webp"></div><div><label>Background</label><input type="color" id="ppBgColor" value="#ffffff"></div></div>
       <div class="grid-3"><div><label>Output width (mm)</label><input type="number" id="ppOutWidthMm" min="1" value="35"></div><div><label>Output height (mm)</label><input type="number" id="ppOutHeightMm" min="1" value="45"></div><div><label>DPI</label><input type="number" id="ppOutDpi" min="72" max="1200" value="300"></div></div>
       <div class="grid-2"><div><label>Zoom</label><input type="range" id="ppZoom" min="1" max="4" step="0.01" value="1.3"></div><div><label>Rotate</label><input type="range" id="ppRotate" min="-20" max="20" step="1" value="0"></div></div>
+      <div class="grid-2">
+        <div>
+          <label>Background removal tool</label>
+          <div class="inline-row" style="margin:0;gap:.45rem">
+            <button class="btn btn-secondary" id="ppToolMove" type="button">Move</button>
+            <button class="btn btn-secondary" id="ppToolEraser" type="button">Eraser</button>
+            <button class="btn btn-secondary" id="ppResetMask" type="button">Reset</button>
+          </div>
+        </div>
+        <div>
+          <label>Eraser size</label>
+          <input type="range" id="ppEraserSize" min="4" max="60" step="1" value="18" />
+        </div>
+      </div>
+      <div class="inline-row" style="margin-top:.2rem">
+        <button class="btn btn-primary" id="ppAutoCrop" type="button">Face auto-crop</button>
+      </div>
       <div class="inline-row"><button class="btn btn-secondary" id="ppCenterPhoto">Center</button><button class="btn btn-secondary" id="ppRenderPreview">Render</button><button class="btn btn-primary" id="ppDownloadJpg">Download JPG</button><button class="btn btn-secondary" id="ppDownloadPng">Download PNG</button></div>
       <div class="pp-canvas-wrap"><canvas id="ppEditorCanvas" width="420" height="540"></canvas></div>
       <div id="ppEditorResult" class="result">Upload a photo. Drag to reposition face.</div>
@@ -210,7 +233,66 @@
     const editorCanvas = editorCard.querySelector("#ppEditorCanvas");
     const editorCtx = editorCanvas.getContext("2d");
     const editorResult = editorCard.querySelector("#ppEditorResult");
-    const editorState = { image: null, w: 0, h: 0, dx: 0, dy: 0, dragging: false, lastX: 0, lastY: 0 };
+    const editorState = { image: null, w: 0, h: 0, dx: 0, dy: 0, dragging: false, lastX: 0, lastY: 0, tool: "move" };
+
+    // Shared photo state so Editor + Planner stay in sync.
+    const globalPassport =
+      (window.QwicktonPassportPhotoMakerState = window.QwicktonPassportPhotoMakerState || {});
+
+    // Mask canvas for manual background removal (eraser tool).
+    const maskCanvas = document.createElement("canvas");
+    const maskCtx = maskCanvas.getContext("2d");
+    const editorMaskApplyCanvas = document.createElement("canvas");
+    const editorMaskApplyCtx = editorMaskApplyCanvas.getContext("2d");
+
+    const presetMiniCanvas = document.getElementById("ppPresetMiniCanvas");
+    const presetMiniCtx = presetMiniCanvas?.getContext("2d") || null;
+
+    function syncGlobalFromEditor() {
+      globalPassport.image = editorState.image || null;
+      globalPassport.w = editorState.w;
+      globalPassport.h = editorState.h;
+      globalPassport.dx = editorState.dx;
+      globalPassport.dy = editorState.dy;
+      globalPassport.zoom = safeNum(editorCard.querySelector("#ppZoom").value, 1.3);
+      globalPassport.rotateDeg = safeNum(editorCard.querySelector("#ppRotate").value, 0);
+      globalPassport.bgColor = editorCard.querySelector("#ppBgColor").value || "#ffffff";
+      globalPassport.outWidthMm = safeNum(editorCard.querySelector("#ppOutWidthMm").value, 35);
+      globalPassport.outHeightMm = safeNum(editorCard.querySelector("#ppOutHeightMm").value, 45);
+      globalPassport.outDpi = safeNum(editorCard.querySelector("#ppOutDpi").value, 300);
+      globalPassport.maskCanvas = maskCanvas;
+      globalPassport.updatedAt = Date.now();
+    }
+
+    function ensureMaskSize() {
+      if (!maskCanvas || !maskCtx) return;
+      if (maskCanvas.width !== editorCanvas.width || maskCanvas.height !== editorCanvas.height) {
+        maskCanvas.width = editorCanvas.width;
+        maskCanvas.height = editorCanvas.height;
+        maskCtx.fillStyle = "rgba(0,0,0,1)"; // opaque mask => keep all
+        maskCtx.fillRect(0, 0, maskCanvas.width, maskCanvas.height);
+      }
+      if (!editorMaskApplyCanvas.width || !editorMaskApplyCanvas.height) {
+        editorMaskApplyCanvas.width = editorCanvas.width;
+        editorMaskApplyCanvas.height = editorCanvas.height;
+      }
+      if (editorMaskApplyCanvas.width !== editorCanvas.width || editorMaskApplyCanvas.height !== editorCanvas.height) {
+        editorMaskApplyCanvas.width = editorCanvas.width;
+        editorMaskApplyCanvas.height = editorCanvas.height;
+      }
+    }
+
+    function resetMask() {
+      ensureMaskSize();
+      maskCtx.globalCompositeOperation = "source-over";
+      maskCtx.clearRect(0, 0, maskCanvas.width, maskCanvas.height);
+      maskCtx.fillStyle = "rgba(0,0,0,1)";
+      maskCtx.fillRect(0, 0, maskCanvas.width, maskCanvas.height);
+    }
+
+    let editorPointers = new Map();
+    let pinchState = null;
+    let lastTap = { ts: 0, x: 0, y: 0 };
 
     function ensureEditorSize() {
       const wMm = Math.max(1, safeNum(editorCard.querySelector("#ppOutWidthMm").value, 35));
@@ -221,6 +303,8 @@
       if (editorCanvas.width !== targetW || editorCanvas.height !== targetH) {
         editorCanvas.width = targetW;
         editorCanvas.height = targetH;
+        // Mask size must match the canvas. When the output aspect changes, we reset the mask.
+        resetMask();
       }
     }
     function renderEditor() {
@@ -242,14 +326,31 @@
       const dh = editorState.h * drawScale;
       const cx = editorCanvas.width / 2 + editorState.dx;
       const cy = editorCanvas.height / 2 + editorState.dy;
-      editorCtx.save();
-      editorCtx.translate(cx, cy);
-      editorCtx.rotate(rotate);
-      editorCtx.drawImage(editorState.image, -dw / 2, -dh / 2, dw, dh);
-      editorCtx.restore();
+
+      ensureMaskSize();
+      editorMaskApplyCtx.clearRect(0, 0, editorCanvas.width, editorCanvas.height);
+      editorMaskApplyCtx.save();
+      editorMaskApplyCtx.translate(cx, cy);
+      editorMaskApplyCtx.rotate(rotate);
+      editorMaskApplyCtx.drawImage(editorState.image, -dw / 2, -dh / 2, dw, dh);
+      editorMaskApplyCtx.restore();
+
+      // Apply manual background-removal mask (alpha keep/remove).
+      editorMaskApplyCtx.globalCompositeOperation = "destination-in";
+      editorMaskApplyCtx.drawImage(maskCanvas, 0, 0);
+      editorMaskApplyCtx.globalCompositeOperation = "source-over";
+
+      editorCtx.drawImage(editorMaskApplyCanvas, 0, 0);
       editorCtx.strokeStyle = "#0891b2";
       editorCtx.lineWidth = 2;
       editorCtx.strokeRect(10, 10, editorCanvas.width - 20, editorCanvas.height - 20);
+
+      // Update mini preview + global state for other cards.
+      if (presetMiniCtx) {
+        presetMiniCtx.clearRect(0, 0, presetMiniCanvas.width, presetMiniCanvas.height);
+        presetMiniCtx.drawImage(editorCanvas, 0, 0, presetMiniCanvas.width, presetMiniCanvas.height);
+      }
+      syncGlobalFromEditor();
     }
     function renderExportCanvas() {
       if (!editorState.image) return null;
@@ -272,11 +373,26 @@
       const dh = editorState.h * drawScale;
       const cx = c.width / 2 + editorState.dx * (c.width / editorCanvas.width);
       const cy = c.height / 2 + editorState.dy * (c.height / editorCanvas.height);
-      x.save();
-      x.translate(cx, cy);
-      x.rotate(rotate);
-      x.drawImage(editorState.image, -dw / 2, -dh / 2, dw, dh);
-      x.restore();
+      // Draw image to a temporary canvas, then apply mask-scaled alpha.
+      const outImgCanvas = document.createElement("canvas");
+      outImgCanvas.width = c.width;
+      outImgCanvas.height = c.height;
+      const outImgCtx = outImgCanvas.getContext("2d");
+      outImgCtx.clearRect(0, 0, outImgCanvas.width, outImgCanvas.height);
+      outImgCtx.save();
+      outImgCtx.translate(cx, cy);
+      outImgCtx.rotate(rotate);
+      outImgCtx.drawImage(editorState.image, -dw / 2, -dh / 2, dw, dh);
+      outImgCtx.restore();
+
+      ensureMaskSize();
+      if (maskCanvas && maskCanvas.width && maskCanvas.height) {
+        outImgCtx.globalCompositeOperation = "destination-in";
+        outImgCtx.drawImage(maskCanvas, 0, 0, editorCanvas.width, editorCanvas.height, 0, 0, c.width, c.height);
+        outImgCtx.globalCompositeOperation = "source-over";
+      }
+
+      x.drawImage(outImgCanvas, 0, 0);
       return { canvas: c, wMm: outWmm, hMm: outHmm, dpi };
     }
     editorCard.querySelector("#ppUploadFile").addEventListener("change", (e) => {
@@ -284,15 +400,20 @@
       if (!f) return;
       const obj = URL.createObjectURL(f);
       const img = new Image();
+      editorResult.textContent = "Loading photo...";
       img.onload = () => {
         editorState.image = img;
         editorState.w = img.naturalWidth || img.width;
         editorState.h = img.naturalHeight || img.height;
         editorState.dx = 0;
         editorState.dy = 0;
+        editorCard.querySelector("#ppZoom").value = "1.3";
+        editorCard.querySelector("#ppRotate").value = "0";
+        resetMask();
         URL.revokeObjectURL(obj);
         renderEditor();
         editorResult.textContent = `Loaded ${f.name} · ${editorState.w}×${editorState.h}px`;
+        document.dispatchEvent(new CustomEvent("pp-photo-updated"));
       };
       img.onerror = () => {
         URL.revokeObjectURL(obj);
@@ -314,6 +435,77 @@
       const dpi = safeNum(editorCard.querySelector("#ppOutDpi").value, 300);
       editorResult.textContent = `Preview ready: ${outWmm}×${outHmm} mm @ ${dpi} DPI`;
     });
+
+    editorState.eraserSize = safeNum(editorCard.querySelector("#ppEraserSize").value, 18);
+    const ppToolMove = editorCard.querySelector("#ppToolMove");
+    const ppToolEraser = editorCard.querySelector("#ppToolEraser");
+    const ppResetMaskBtn = editorCard.querySelector("#ppResetMask");
+    const ppEraserSize = editorCard.querySelector("#ppEraserSize");
+    const ppAutoCropBtn = editorCard.querySelector("#ppAutoCrop");
+
+    function setTool(tool) {
+      editorState.tool = tool;
+      editorCanvas.style.cursor = tool === "erase" ? "crosshair" : "grab";
+      editorResult.textContent = tool === "erase" ? "Eraser mode: remove background by tapping/dragging." : "Move mode: drag to reposition.";
+      renderEditor();
+    }
+
+    ppToolMove?.addEventListener("click", () => setTool("move"));
+    ppToolEraser?.addEventListener("click", () => setTool("erase"));
+    ppResetMaskBtn?.addEventListener("click", () => {
+      resetMask();
+      editorResult.textContent = "Background removal mask reset.";
+      renderEditor();
+    });
+    ppEraserSize?.addEventListener("input", () => {
+      editorState.eraserSize = safeNum(ppEraserSize.value, 18);
+    });
+
+    const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
+
+    ppAutoCropBtn?.addEventListener("click", async () => {
+      if (!editorState.image) {
+        editorResult.textContent = "Upload a photo first.";
+        return;
+      }
+      if (!("FaceDetector" in window)) {
+        editorResult.textContent = "Auto-crop not supported in this browser. Use drag + zoom.";
+        return;
+      }
+      try {
+        editorResult.textContent = "Detecting face...";
+        const detector = new window.FaceDetector({ maxDetectedFaces: 1 });
+        const faces = await detector.detect(editorState.image);
+        if (!faces?.length) {
+          editorResult.textContent = "No face detected. Try again or use manual alignment.";
+          return;
+        }
+        const bb = faces[0].boundingBox || faces[0].boundingBoxes?.[0];
+        if (!bb) {
+          editorResult.textContent = "Face detected but bounding box missing.";
+          return;
+        }
+        // Rotate alignment is complex; auto-crop works best with rotate = 0.
+        editorCard.querySelector("#ppRotate").value = "0";
+        const rotate = 0;
+        const cover = Math.max(editorCanvas.width / Math.max(1, editorState.w), editorCanvas.height / Math.max(1, editorState.h));
+        const targetFaceHeightPx = editorCanvas.height * 0.62;
+        const newZoom = clamp(targetFaceHeightPx / Math.max(1, bb.height * cover), 1, 4);
+        const faceCenterX = bb.x + bb.width / 2;
+        const faceCenterY = bb.y + bb.height / 2;
+        const offsetX = (faceCenterX - editorState.w / 2) * cover * newZoom;
+        const offsetY = (faceCenterY - editorState.h / 2) * cover * newZoom;
+        editorState.dx = -offsetX;
+        editorState.dy = -offsetY;
+        editorCard.querySelector("#ppZoom").value = String(newZoom.toFixed(2));
+        renderEditor();
+        editorResult.textContent = "Auto-crop applied. Please verify manually.";
+      } catch (err) {
+        editorResult.textContent = "Auto-crop failed. Use manual alignment.";
+      }
+    });
+
+    setTool("move");
     function exportEditor(kind) {
       const out = renderExportCanvas();
       if (!out) {
@@ -330,31 +522,148 @@
     editorCard.querySelector("#ppDownloadJpg").addEventListener("click", () => exportEditor("image/jpeg"));
     editorCard.querySelector("#ppDownloadPng").addEventListener("click", () => exportEditor("image/png"));
     editorCard.querySelectorAll("#ppBgColor, #ppOutWidthMm, #ppOutHeightMm, #ppOutDpi, #ppZoom, #ppRotate").forEach((el) => el.addEventListener("input", renderEditor));
+    function canvasPoint(e) {
+      const rect = editorCanvas.getBoundingClientRect();
+      return { x: e.clientX - rect.left, y: e.clientY - rect.top };
+    }
+
+    function eraseAt(x, y) {
+      ensureMaskSize();
+      maskCtx.globalCompositeOperation = "destination-out";
+      maskCtx.beginPath();
+      maskCtx.arc(x, y, editorState.eraserSize || 18, 0, Math.PI * 2);
+      maskCtx.fill();
+      maskCtx.globalCompositeOperation = "source-over";
+    }
+
+    let eraserPointerId = null;
+
     editorCanvas.addEventListener("pointerdown", (e) => {
-      editorState.dragging = true;
-      editorState.lastX = e.clientX;
-      editorState.lastY = e.clientY;
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+      const p = canvasPoint(e);
+      editorPointers.set(e.pointerId, p);
       editorCanvas.setPointerCapture(e.pointerId);
+
+      if (editorState.tool === "erase") {
+        eraserPointerId = e.pointerId;
+        eraseAt(p.x, p.y);
+        renderEditor();
+        return;
+      }
+
+      // Double-tap to reset alignment (mobile).
+      if (e.pointerType === "touch" && editorPointers.size === 1) {
+        const now = Date.now();
+        const dist = Math.hypot(p.x - lastTap.x, p.y - lastTap.y);
+        if (now - lastTap.ts < 360 && dist < 26) {
+          editorState.dx = 0;
+          editorState.dy = 0;
+          editorCard.querySelector("#ppZoom").value = "1.3";
+          editorCard.querySelector("#ppRotate").value = "0";
+          lastTap = { ts: 0, x: 0, y: 0 };
+          renderEditor();
+          editorState.dragging = false;
+          pinchState = null;
+          return;
+        }
+        lastTap = { ts: now, x: p.x, y: p.y };
+      }
+
+      if (editorPointers.size === 1) {
+        editorState.dragging = true;
+        editorState.lastX = p.x;
+        editorState.lastY = p.y;
+        pinchState = null;
+      }
+
+      if (editorPointers.size === 2) {
+        // Pinch-to-zoom (mobile).
+        editorState.dragging = false;
+        const pts = Array.from(editorPointers.values());
+        const dx = pts[1].x - pts[0].x;
+        const dy = pts[1].y - pts[0].y;
+        pinchState = {
+          initialDist: Math.max(10, Math.hypot(dx, dy)),
+          initialZoom: safeNum(editorCard.querySelector("#ppZoom").value, 1.3),
+          initialDx: editorState.dx,
+          initialDy: editorState.dy,
+          initialCenterX: (pts[0].x + pts[1].x) / 2,
+          initialCenterY: (pts[0].y + pts[1].y) / 2
+        };
+      }
     });
+
     editorCanvas.addEventListener("pointermove", (e) => {
-      if (!editorState.dragging) return;
-      editorState.dx += e.clientX - editorState.lastX;
-      editorState.dy += e.clientY - editorState.lastY;
-      editorState.lastX = e.clientX;
-      editorState.lastY = e.clientY;
-      renderEditor();
+      if (!editorPointers.has(e.pointerId)) return;
+      const p = canvasPoint(e);
+      editorPointers.set(e.pointerId, p);
+
+      if (editorState.tool === "erase") {
+        if (eraserPointerId !== e.pointerId) return;
+        eraseAt(p.x, p.y);
+        renderEditor();
+        return;
+      }
+
+      if (editorPointers.size === 2 && pinchState) {
+        const pts = Array.from(editorPointers.values());
+        const dx = pts[1].x - pts[0].x;
+        const dy = pts[1].y - pts[0].y;
+        const dist = Math.max(10, Math.hypot(dx, dy));
+        const centerX = (pts[0].x + pts[1].x) / 2;
+        const centerY = (pts[0].y + pts[1].y) / 2;
+        const scale = dist / Math.max(1, pinchState.initialDist);
+        const newZoom = clamp(pinchState.initialZoom * scale, 1, 4);
+        editorCard.querySelector("#ppZoom").value = String(newZoom.toFixed(2));
+        editorState.dx = pinchState.initialDx + (centerX - pinchState.initialCenterX);
+        editorState.dy = pinchState.initialDy + (centerY - pinchState.initialCenterY);
+        renderEditor();
+        return;
+      }
+
+      if (editorState.dragging) {
+        editorState.dx += p.x - editorState.lastX;
+        editorState.dy += p.y - editorState.lastY;
+        editorState.lastX = p.x;
+        editorState.lastY = p.y;
+        renderEditor();
+      }
     });
+
     editorCanvas.addEventListener("pointerup", (e) => {
+      editorPointers.delete(e.pointerId);
+      if (eraserPointerId === e.pointerId) eraserPointerId = null;
+      if (editorState.tool === "erase") {
+        renderEditor();
+        editorState.dragging = false;
+        return;
+      }
+
+      pinchState = null;
+      editorState.dragging = editorPointers.size === 1;
+      if (editorPointers.size === 1) {
+        const p = Array.from(editorPointers.values())[0];
+        editorState.lastX = p.x;
+        editorState.lastY = p.y;
+      }
       editorState.dragging = false;
       editorCanvas.releasePointerCapture(e.pointerId);
     });
-    editorCanvas.addEventListener("pointercancel", () => {
+
+    editorCanvas.addEventListener("pointercancel", (e) => {
+      editorPointers.clear();
+      eraserPointerId = null;
+      pinchState = null;
       editorState.dragging = false;
     });
 
     // 4) Planner + sheet + PDF
     const plannerCard = makeCard("planner", "📄", "Print Sheet Planner + PDF", `
       <p class="pp-hint">Generate printable sheet from your current edited photo, then download PNG/JPG or Save as PDF via print dialog.</p>
+      <div class="grid-2" style="margin:.3rem 0 1rem">
+        <div><label>Upload photo (optional)</label><input type="file" id="ppPlannerUploadFile" accept="image/jpeg,image/png,image/webp"></div>
+        <div><label>Tip</label><p class="pp-hint" style="margin:0 0 .2rem">Agar editor open nahi kiya, yahin se upload kar do.</p></div>
+      </div>
       <div class="grid-3"><div><label>Paper</label><select id="ppPaperSize"><option value="a4">A4 (210×297)</option><option value="letter">Letter (216×279)</option><option value="a5">A5 (148×210)</option></select></div><div><label>Margin (mm)</label><input type="number" id="ppSheetMargin" value="10" min="0" max="30"></div><div><label>Gap (mm)</label><input type="number" id="ppSheetGap" value="4" min="0" max="20"></div></div>
       <div class="grid-2"><div><label>Copies needed</label><input type="number" id="ppCopies" value="8" min="1" max="200"></div><div><label>Sheet DPI</label><input type="number" id="ppSheetDpi" value="300" min="150" max="600"></div></div>
       <div class="inline-row"><button class="btn btn-primary" id="ppPlanSheet">Generate Sheet</button><button class="btn btn-secondary" id="ppSheetPng">Download PNG</button><button class="btn btn-secondary" id="ppSheetJpg">Download JPG</button><button class="btn btn-secondary" id="ppSheetPdf">Download PDF</button><button class="btn btn-secondary" id="ppExportPlan">Export Plan TXT</button></div>
@@ -428,6 +737,34 @@
     }
 
     plannerCard.querySelector("#ppPlanSheet").addEventListener("click", generateSheet);
+    const ppPlannerUploadFile = plannerCard.querySelector("#ppPlannerUploadFile");
+    ppPlannerUploadFile?.addEventListener("change", (e) => {
+      const f = e.target.files?.[0];
+      if (!f) return;
+      const obj = URL.createObjectURL(f);
+      const img = new Image();
+      editorResult.textContent = "Loading photo for sheet...";
+      img.onload = () => {
+        editorState.image = img;
+        editorState.w = img.naturalWidth || img.width;
+        editorState.h = img.naturalHeight || img.height;
+        editorState.dx = 0;
+        editorState.dy = 0;
+        editorCard.querySelector("#ppZoom").value = "1.3";
+        editorCard.querySelector("#ppRotate").value = "0";
+        resetMask();
+        URL.revokeObjectURL(obj);
+        renderEditor();
+        editorResult.textContent = `Loaded ${f.name} · ${editorState.w}×${editorState.h}px`;
+        document.dispatchEvent(new CustomEvent("pp-photo-updated"));
+      };
+      img.onerror = () => {
+        URL.revokeObjectURL(obj);
+        editorResult.textContent = "Could not decode image. Try JPEG/PNG/WebP.";
+      };
+      img.src = obj;
+    });
+
     plannerCard.querySelector("#ppSheetPng").addEventListener("click", () => {
       if (!lastSheetDataUrl) return;
       downloadDataUrl("passport-sheet.png", lastSheetDataUrl);
@@ -440,14 +777,43 @@
       c.getContext("2d").drawImage(sheetCanvas, 0, 0);
       downloadDataUrl("passport-sheet.jpg", c.toDataURL("image/jpeg", 0.95));
     });
-    plannerCard.querySelector("#ppSheetPdf").addEventListener("click", () => {
+    async function ensureJsPdf() {
+      if (window.jspdf?.jsPDF) return window.jspdf.jsPDF;
+      if (ensureJsPdf._p) return ensureJsPdf._p;
+      ensureJsPdf._p = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = "https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js";
+        script.async = true;
+        script.onload = () => resolve(window.jspdf?.jsPDF || null);
+        script.onerror = () => reject(new Error("Failed to load jsPDF"));
+        document.head.appendChild(script);
+      });
+      return ensureJsPdf._p;
+    }
+
+    plannerCard.querySelector("#ppSheetPdf").addEventListener("click", async () => {
       if (!lastSheetDataUrl) return;
-      const w = window.open("", "_blank", "noopener,noreferrer,width=900,height=700");
-      if (!w) return;
-      w.document.write(`<!doctype html><html><head><title>Passport Sheet PDF</title><style>body{margin:0;padding:16px;font-family:system-ui;background:#f3f4f6}img{max-width:100%;height:auto;display:block;margin:0 auto;border:1px solid #ddd;background:#fff}pre{white-space:pre-wrap;font-size:12px;color:#374151}</style></head><body><img src="${lastSheetDataUrl}" alt="Passport sheet"/><pre>${esc(lastPlanText)}</pre><script>setTimeout(()=>window.print(),120);</script></body></html>`);
-      w.document.close();
-      pushHistory("PDF", "Opened print dialog for PDF sheet download", renderHistory);
+      const paper = getPaperMm(plannerCard.querySelector("#ppPaperSize").value);
+      const loadingMsg = "Preparing PDF download...";
+      plannerCard.querySelector("#ppSheetPlan").value = loadingMsg;
+      try {
+        const jsPDF = await ensureJsPdf();
+        if (!jsPDF) throw new Error("jsPDF not available");
+        const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: [paper.w, paper.h] });
+        doc.addImage(lastSheetDataUrl, "PNG", 0, 0, paper.w, paper.h);
+        if (lastPlanText) {
+          doc.setFontSize(8);
+          const lines = doc.splitTextToSize(String(lastPlanText || ""), Math.max(20, paper.w - 4));
+          doc.text(lines, 2, paper.h - 2);
+        }
+        doc.save(`passport-sheet-${paper.name}.pdf`);
+        plannerCard.querySelector("#ppSheetPlan").value = lastPlanText || loadingMsg;
+        pushHistory("PDF", `Downloaded passport sheet PDF (${paper.name})`, renderHistory);
+      } catch (err) {
+        plannerCard.querySelector("#ppSheetPlan").value = "PDF download failed. Try again.";
+      }
     });
+
     plannerCard.querySelector("#ppExportPlan").addEventListener("click", () => downloadText("passport-sheet-plan.txt", lastPlanText));
 
     // 5) Compliance checklist
